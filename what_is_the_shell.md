@@ -1,6 +1,6 @@
 # What is the shell?
 
-The shell (sometimes referred to as the “Unix shell”, for the operating system where it was first developed) is a program that allows you to interact with your computer using typed text commands. It is the primary interface used on Linux and Unix-based systems, such as macOS, and can be installed optionally on other operating systems such as Windows.
+The shell (sometimes referred to as the “Unix shell”, for the operating system where it was first developed) is a program that allows you to interact with your computer using typed text commands. It is the primary interface used on Linux and Unix-based systems, such as macOS, and can be optionally installed on other operating systems such as older versions of Windows. As of Windows 10 the Unix shell comes pre-installed but must be turned on. 
 
 ## Why should I use it? 
 
