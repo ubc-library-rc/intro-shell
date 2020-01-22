@@ -53,7 +53,6 @@ Output
 ~~~
 total 0
 drwx------@   3 egrguric  staff     96  6 Aug 14:25 Applications
-drwxrwxr-x@   3 egrguric  staff     96 22 Oct 13:17 Creative Cloud Files
 drwx------+   6 egrguric  staff    192 21 Jan 22:04 Desktop
 drwx------+  20 egrguric  staff    640 30 Dec 09:04 Documents
 drwx------+ 527 egrguric  staff  16864 21 Jan 21:46 Downloads
@@ -62,7 +61,6 @@ drwx------+   3 egrguric  staff     96 18 Jul  2019 Movies
 drwx------+   4 egrguric  staff    128  4 Sep 16:29 Music
 drwx------+   4 egrguric  staff    128 25 Jul 13:56 Pictures
 drwxr-xr-x+   4 egrguric  staff    128 18 Jul  2019 Public
-drwxr-xr-x    4 egrguric  staff    128  8 Nov 16:17 Vagrants
 ~~~
 
 Input
@@ -75,7 +73,6 @@ Output
 ~~~
 total 0
 drwx------@   3 egrguric  staff    96B  6 Aug 14:25 Applications
-drwxrwxr-x@   3 egrguric  staff    96B 22 Oct 13:17 Creative Cloud Files
 drwx------+   6 egrguric  staff   192B 21 Jan 22:04 Desktop
 drwx------+  20 egrguric  staff   640B 30 Dec 09:04 Documents
 drwx------+ 527 egrguric  staff    16K 21 Jan 21:46 Downloads
@@ -84,7 +81,7 @@ drwx------+   3 egrguric  staff    96B 18 Jul  2019 Movies
 drwx------+   4 egrguric  staff   128B  4 Sep 16:29 Music
 drwx------+   4 egrguric  staff   128B 25 Jul 13:56 Pictures
 drwxr-xr-x+   4 egrguric  staff   128B 18 Jul  2019 Public
-drwxr-xr-x    4 egrguric  staff   128B  8 Nov 16:17 Vagrants
+
 ~~~
 
 ## Getting help
