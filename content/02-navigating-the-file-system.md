@@ -161,4 +161,7 @@ Input
 $ cd open .
 ~~~
 
+Output
+{: .label .label-yellow}
+
 ![Finder window](finder.png)
