@@ -1,12 +1,12 @@
 ---
  layout: default
- title: Overview
+ title: Setup
  nav_order: 0
 ---
 
 ## Introduction to the Unix Shell
 
-This workshop is adapted from The Carpentries. 
+This workshop is adapted from The Carpentries.
 
 ### Overview
 

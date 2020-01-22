@@ -1,6 +1,7 @@
 ---
  layout: default
  title: Navigating the file system
+ parent: Outline
  nav_order: 2
 ---
 # Navigating the file system

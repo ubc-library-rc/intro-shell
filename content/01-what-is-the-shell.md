@@ -1,6 +1,7 @@
 ---
  layout: default
  title: What is the shell?
+ parent: Outline
  nav_order: 1
 ---
 

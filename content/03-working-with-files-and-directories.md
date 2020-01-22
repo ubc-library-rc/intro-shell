@@ -1,6 +1,7 @@
 ---
  layout: default
  title: Working with files and directories
+ parent: Outline
  nav_order: 3
 ---
 
