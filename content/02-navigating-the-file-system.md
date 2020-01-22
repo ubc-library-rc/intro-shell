@@ -164,4 +164,4 @@ $ cd open .
 Output
 {: .label .label-yellow}
 
-![Finder window](finder.png)
+ <img src="img/finder.png">
