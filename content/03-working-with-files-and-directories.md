@@ -301,3 +301,22 @@ with this eBook or online at www.gutenberg.net
 
 Title: Little Women
 ~~~
+
+Input
+{: .label .label-green}
+~~~
+$ head -n1 *.txt
+~~~
+
+Output
+{: .label .label-yellow}
+~~~
+==> 33504-0.txt <==
+The Project Gutenberg EBook of Opticks, by Isaac Newton
+
+==> 829-0.txt <==
+The Project Gutenberg eBook, Gulliver's Travels, by Jonathan Swift
+
+==> pg514.txt <==
+The Project Gutenberg EBook of Little Women, by Louisa May Alcott
+~~~
