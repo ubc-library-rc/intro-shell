@@ -14,6 +14,7 @@ $
 
 You are communicating with your computer by giving it commands and having it react to those commands.
 
+## Orienting yourself
 Let's enter our first command "pwd" which stands for "print working directory" and will tell us where we are in the system. The term "directory" refers to what you might visually think of as a "folder" when browsing your file system.
 
 Input
@@ -126,7 +127,7 @@ Notice the colon : which indicates that there is more text and you can keep pagi
 
 You can only go to places that exist.
 
-## Getting around the file system
+## Moving around
 
 Input
 {: .label .label-green}
