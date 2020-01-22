@@ -2,7 +2,7 @@
  layout: default
  title: Automating with loops
  parent: Outline
- nav_order: 4
+ nav_order: 3
 ---
 
 Sometimes you want to do a lot quickly. Loops are a way to automate a series of commands so that you batch together.
