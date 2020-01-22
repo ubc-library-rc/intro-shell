@@ -9,7 +9,9 @@ nav_order: 49
 * [Library Carpentry's UNIX shell reference.](https://librarycarpentry.org/lc-shell/reference.html)
 * [Software Carpentry's more detailed shell reference.](https://swcarpentry.github.io/shell-novice/reference/)
 
-## Summary of Basic Commands
+## Basic commands
+
+This is a quick summary of the commands mentioned in this workshop by section.
 
 ### Navigating the file system
 
