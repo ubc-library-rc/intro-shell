@@ -64,7 +64,7 @@ $ open .
 
 Output
 {: .label .label-yellow}
-![First directory in Finder](myfirstdir.png)
+![First directory in Finder](img/myfirstdir.png)
 
 # Creating a file
 Now let's create a file. There are built-in text editors accessible through the shell. Nano is a commonly used editor.
