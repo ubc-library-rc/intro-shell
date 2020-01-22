@@ -28,11 +28,11 @@ do
 done
 ~~~
 
-Notice that as you write a loop in the shell the indicator changes from $ to > which basically means "waiting for the command to finish".
+Notice that as you write a loop in the shell the indicator changes from $ to > which essentially means "waiting for the command to finish".
 
 In this example we are saying that every time a filename has the ".doc" extension, we want to take the name of the file, and then make a copy of it while prefixing the file with "backup_". The result is a backup of every file with a .doc extension in our directory.
 
-Let's say we make four files called
+Let's say we make four files called one.doc, two.doc, three.doc, and four.doc.
 
 Input
 {: .label .label-green}
@@ -51,7 +51,7 @@ Output
 829-0.txt
 ~~~
 
-Let's run our loop and see what happens.
+Let's run our loop and see what happens. Note that we are telling the script to "echo" the filenames that are getting acted on. This is a way to check that the script is okay and to confirm which files we are affecting.
 
 Input
 {: .label .label-green}
