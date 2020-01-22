@@ -5,6 +5,8 @@
  nav_order: 3
 ---
 
+# Automating with loops
+
 Sometimes you want to do a lot quickly. Loops are a way to automate a series of commands so that you batch together.
 
 The structure of a loop is:
@@ -69,7 +71,7 @@ three.doc
 two.doc
 ~~~
 
-If we now ls in the working folder we see the four backup files. 
+If we now ls in the working folder we see the four backup files.
 
 Output
 {: .label .label-yellow}
