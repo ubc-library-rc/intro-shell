@@ -64,7 +64,7 @@ $ open .
 
 Output
 {: .label .label-yellow}
- <img src="myfirstdir.png" alt="Finder window showing new empty directory.">)
+![Finder window with empty directory](myfirstdir.png)
 
 # Creating a file
 Now let's create a file. There are built-in text editors accessible through the shell. Nano is a commonly used editor.
@@ -164,7 +164,7 @@ Let's take a look at the files that are in the shell-lesson folder.
 
 Sometimes you want to get a more in-depth sense of what is in the files in a directory.
 
-We've already talked a bit about looking at the information about the file.
+We've already talked a bit about looking at the information about the files.
 
 Input
 {: .label .label-green}
