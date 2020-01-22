@@ -153,6 +153,7 @@ Output
 ~~~
 
 Viewing things graphically.
+
 Input
 {: .label .label-green}
 ~~~
