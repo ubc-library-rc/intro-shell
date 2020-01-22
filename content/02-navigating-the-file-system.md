@@ -130,15 +130,17 @@ Input
 {: .label .label-green}
 ~~~
 $ cd Desktop
+$ pwd
 ~~~
 Output
 {: .label .label-yellow}
 ~~~
+/Users/egrguric/Desktop
 ~~~
 
 The case of the directory doesn't matter on Mac or PC but does on Linux.
 
-Switch back and forth between two directories.
+Switch back and forth between two directories. Note that you don't need to enter "pwd" to get a filepath with cd -.
 
 Input
 {: .label .label-green}
@@ -148,6 +150,7 @@ $ cd -
 Output
 {: .label .label-yellow}
 ~~~
+/Users/egrguric
 ~~~
 
 Viewing things graphically.
@@ -157,7 +160,5 @@ Input
 ~~~
 $ cd open .
 ~~~
-Output
-{: .label .label-yellow}
-~~~
-~~~
+
+![Finder window](finder.png)
