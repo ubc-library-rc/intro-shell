@@ -64,6 +64,7 @@ $ open .
 
 Output
 {: .label .label-yellow}
+
 ![Finder window with empty directory](myfirstdir.png)
 
 # Creating a file

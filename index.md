@@ -20,4 +20,4 @@ Please bring a laptop to this workshop. We will be using the Unix shell for most
 
 ### Data Files
 
-Download the data folder [located here](https://librarycarpentry.org/lc-shell/setup.html) in the Library Carpentry Shell Lesson and save it to your desktop. We will be using these files in the second half of this session.
+Download the data folder [located here](https://librarycarpentry.org/lc-shell/setup.html){:target="_blank"} in the Library Carpentry Shell Lesson and save it to your desktop. We will be using these files in the second half of this session.
