@@ -13,7 +13,6 @@ This workshop is adapted from The Carpentries.
 2. Navigating the file system
 3. Working with files and directories
 4. Automating with loops
-5. Working with text
 
 ### Setup
 
