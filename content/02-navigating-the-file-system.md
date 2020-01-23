@@ -28,6 +28,13 @@ Output
 /Users/egrguric
 ~~~
 
+Input
+{: .label .label-green}
+~~~
+$ cd open .
+~~~
+
+![Finder window](finder.png)
 
 Input
 {: .label .label-green}
@@ -126,6 +133,8 @@ You can only go to places that exist.
 
 ## Moving around
 
+To move between directories we can use the "cd" command which stands for "change directory". This will move you one step forward in the system.
+
 Input
 {: .label .label-green}
 ~~~
@@ -138,30 +147,17 @@ Output
 /Users/egrguric/Desktop
 ~~~
 
-The case of the directory doesn't matter on Mac or PC but does on Linux.
+When typing a directory name, the case of the directory doesn't matter on Mac or PC but does on Linux.
 
-Switch back and forth between two directories. Note that you don't need to enter "pwd" to get a filepath with cd -.
+To move backwards in a directory use "cd .." which takes you back one step.
 
 Input
 {: .label .label-green}
 ~~~
-$ cd -
+$ cd ..
 ~~~
 Output
 {: .label .label-yellow}
 ~~~
 /Users/egrguric
 ~~~
-
-Viewing things graphically.
-
-Input
-{: .label .label-green}
-~~~
-$ cd open .
-~~~
-
-Output
-{: .label .label-yellow}
-
- <img src="img/finder.png">

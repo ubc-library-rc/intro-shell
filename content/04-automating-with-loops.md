@@ -42,13 +42,10 @@ touch one.doc two.doc three.doc four.doc
 Output
 {: .label .label-yellow}
 ~~~
-000003160_01_text.json		diary.html
-2014-01-31_JA-africa.tsv	four.doc
-2014-01-31_JA-america.tsv	one.doc
-2014-01_JA.tsv			pg514.txt
-2014-02-02_JA-britain.tsv	three.doc
-33504-0.txt			two.doc
-829-0.txt
+one.doc
+two.doc
+three.doc
+four.doc
 ~~~
 
 Let's run our loop and see what happens. Note that we are telling the script to "echo" the filenames that are getting acted on. This is a way to check that the script is okay and to confirm which files we are affecting.
@@ -76,13 +73,12 @@ If we now ls in the working folder we see the four backup files.
 Output
 {: .label .label-yellow}
 ~~~
-000003160_01_text.json		backup_three.doc
-2014-01-31_JA-africa.tsv	backup_two.doc
-2014-01-31_JA-america.tsv	diary.html
-2014-01_JA.tsv			four.doc
-2014-02-02_JA-britain.tsv	one.doc
-33504-0.txt			pg514.txt
-829-0.txt			three.doc
-backup_four.doc			two.doc
+one.doc
+two.doc
+three.doc
+four.doc
 backup_one.doc
+backup_two.doc
+backup_three.doc
+backup_four.doc
 ~~~

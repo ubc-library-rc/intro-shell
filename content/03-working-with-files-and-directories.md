@@ -9,30 +9,21 @@
 
 Now that you know how to move around in the system we can try making changes to it.
 
-First, let's navigate to our working folder.
+First, let's navigate to our Desktop.
 
 Input
 {: .label .label-green}
 ~~~
 $ cd Desktop
-$ cd shell-lesson
 $ pwd
 ~~~
 Output
 {: .label .label-yellow}
 ~~~
-/Users/egrguric/desktop/shell-lesson
+/Users/egrguric/desktop
 ~~~
 
-Note that you can jump directly to a directory you already know is there by just entering the full path.
-
-~~~
-$ cd Desktop/shell-lesson
-~~~
-
-And you can use "tab" to autocomplete directory and file names quickly.
-
-From this point on we will be working in the shell-lesson folder.
+If a directory of filename is too long to type you can use "tab" to autocomplete directory and file names quickly.
 
 ## Creating a directory
 Let's try creating a directory and moving in and out of it.
@@ -48,11 +39,7 @@ $ ls
 Output
 {: .label .label-yellow}
 ~~~
-000003160_01_text.json		33504-0.txt
-2014-01-31_JA-africa.tsv	829-0.txt
-2014-01-31_JA-america.tsv	diary.html
-2014-01_JA.tsv			myfirstdirectory
-2014-02-02_JA-britain.tsv	pg514.txt
+myfirstdirectory
 ~~~
 
 You can see there is now a new directory in the same location. If we try going into it we will see that it's empty.
@@ -68,7 +55,7 @@ Output
 ![Finder window with empty directory](myfirstdir.png)
 
 # Creating a file
-Now let's create a file. There are built-in text editors accessible through the shell. Nano is a commonly used editor.
+Now let's create a file. There are built-in text editors accessible through the shell. These editors are handy if you need to make a quick change from the shell or want to avoid having to open another program while you are working in it. Nano is a commonly used text editor.
 
 Input
 {: .label .label-green}
@@ -80,15 +67,13 @@ $ ls
 Output
 {: .label .label-yellow}
 ~~~
-000003160_01_text.json		829-0.txt
-2014-01-31_JA-africa.tsv	diary.html
-2014-01-31_JA-america.tsv	myfile
-2014-01_JA.tsv			myfirstdirectory
-2014-02-02_JA-britain.tsv	pg514.txt
-33504-0.txt
+myfile
+myfirstdirectory
 ~~~
 
 ## Moving, copying, and deleting files and directories
+
+Now let's try moving our new file into our new directory to organize things a bit.
 
 Input
 {: .label .label-green}
@@ -152,16 +137,12 @@ $ ls
 Output
 {: .label .label-yellow}
 ~~~
-000003160_01_text.json		33504-0.txt
-2014-01-31_JA-africa.tsv	829-0.txt
-2014-01-31_JA-america.tsv	diary.html
-2014-01_JA.tsv			pg514.txt
-2014-02-02_JA-britain.tsv
+
 ~~~
 
 ## Reading files
 
-Let's take a look at the files that are in the shell-lesson folder.
+Let's make a few files to work with for the next activity.
 
 Sometimes you want to get a more in-depth sense of what is in the files in a directory.
 
@@ -170,22 +151,21 @@ We've already talked a bit about looking at the information about the files.
 Input
 {: .label .label-green}
 ~~~
-$ ls -lh
+$ touch file1 file2 file3 file4
 ~~~
-
 Output
 {: .label .label-yellow}
 ~~~
-total 286664
--rwxr-xr-x@ 1 egrguric  staff   383K 20 Jun  2019 000003160_01_text.json
--rwxr-xr-x@ 1 egrguric  staff   3.6M 20 Jun  2019 2014-01-31_JA-africa.tsv
--rwxr-xr-x@ 1 egrguric  staff   7.4M 20 Jun  2019 2014-01-31_JA-america.tsv
--rwxr-xr-x@ 1 egrguric  staff   125M  9 Jun  2015 2014-01_JA.tsv
--rwxr-xr-x@ 1 egrguric  staff   1.4M 20 Jun  2019 2014-02-02_JA-britain.tsv
--rwxr-xr-x@ 1 egrguric  staff   582K 20 Jun  2019 33504-0.txt
--rwxr-xr-x@ 1 egrguric  staff   598K 20 Jun  2019 829-0.txt
--rwxr-xr-x@ 1 egrguric  staff    18K 20 Jun  2019 diary.html
--rwxr-xr-x@ 1 egrguric  staff   1.0M 20 Jun  2019 pg514.txt
+file1
+file2
+file3
+file4
+~~~
+
+Input
+{: .label .label-green}
+~~~
+$ ls -lh
 ~~~
 
 But you can also quickly open the entirety of the file from the command line.
@@ -193,17 +173,61 @@ But you can also quickly open the entirety of the file from the command line.
 Input
 {: .label .label-green}
 ~~~
-$ cat 829-0.txt
+$ cat file1
 ~~~
 
-The command "cat" gives you everything in a file all at once which is great when working with smaller files but can be overwhelming with larger files. Sometimes all you want to see is a small subset of a file.
+Output
+{: .label .label-yellow}
+~~~
 
-Another option similar to "cat" is "less" which similar to the manual shows you only what fits in your terminal window and then lets you move through the content by hitting enter.
+~~~
+
+Input
+{: .label .label-green}
+~~~
+$ nano file1
+~~~
+
+Output
+{: .label .label-yellow}
+~~~
+My super secret plan.
+
+Part 1
+
+Part 2
+
+Part 3
+
+Part 4
+
+Part 5
+~~~
 
 Input
 {: .label .label-green}
 ~~~
 $ less
+~~~
+
+Output
+{: .label .label-yellow}
+~~~
+My super secret plan.
+
+Step 1
+
+Step 2
+
+Step 3
+
+Step 4
+
+Step 5
+
+Step 6
+
+World domination!
 ~~~
 
 The command "head" defaults to showing the first ten lines in a file.
@@ -217,30 +241,7 @@ $ head
 Output
 {: .label .label-yellow}
 ~~~
-The Project Gutenberg eBook, Gulliver's Travels, by Jonathan Swift
 
-
-This eBook is for the use of anyone anywhere at no cost and with
-almost no restrictions whatsoever.  You may copy it, give it away or
-re-use it under the terms of the Project Gutenberg License included
-with this eBook or online at www.gutenberg.org
-
-
-
-
-
-Title: Gulliver's Travels
-       into several remote nations of the world
-
-
-Author: Jonathan Swift
-
-
-
-Release Date: June 15, 2009  [eBook #829]
-
-Language: English
-829-0.txt
 ~~~
 
 You can ask head to show more or less as needed.
