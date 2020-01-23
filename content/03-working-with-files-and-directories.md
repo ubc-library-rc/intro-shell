@@ -151,15 +151,15 @@ We've already talked a bit about looking at the information about the files.
 Input
 {: .label .label-green}
 ~~~
-$ touch file1 file2 file3 file4
+$ touch file1.txt file2.txt file3.txt file4.txt
 ~~~
 Output
 {: .label .label-yellow}
 ~~~
-file1
-file2
-file3
-file4
+file1.txt
+file2.txt
+file3.txt
+file4.txt
 ~~~
 
 Input
@@ -173,7 +173,7 @@ But you can also quickly open the entirety of the file from the command line.
 Input
 {: .label .label-green}
 ~~~
-$ cat file1
+$ cat file1.txt
 ~~~
 
 Output
@@ -207,6 +207,52 @@ Part 5
 Input
 {: .label .label-green}
 ~~~
+$ head
+~~~
+
+Output
+{: .label .label-yellow}
+~~~
+My super secret plan.
+
+Step 1
+
+Step 2
+
+Step 3
+
+Step 4
+
+~~~
+
+You can ask head to show more or less as needed.
+
+"Tail" works similarly
+
+Input
+{: .label .label-green}
+~~~
+$ tail file1.txt
+~~~
+
+Output
+{: .label .label-yellow}
+~~~
+
+Step 3
+
+Step 4
+
+Step 5
+
+Step 6
+
+World domination!
+~~~
+
+Input
+{: .label .label-green}
+~~~
 $ less
 ~~~
 
@@ -224,50 +270,12 @@ Step 3
 Step 4
 
 Step 5
-
-Step 6
-
-World domination!
+:
 ~~~
+
+Use the enter key to move through the file and "q" to "quit" or exit the file.
 
 The command "head" defaults to showing the first ten lines in a file.
-
-Input
-{: .label .label-green}
-~~~
-$ head
-~~~
-
-Output
-{: .label .label-yellow}
-~~~
-
-~~~
-
-You can ask head to show more or less as needed.
-
-"Tail" works similarly
-
-Input
-{: .label .label-green}
-~~~
-$ tail 829-0.txt
-~~~
-
-Output
-{: .label .label-yellow}
-~~~
-Most people start at our Web site which has the main PG search facility:
-
-     http://www.gutenberg.org
-
-This Web site includes information about Project Gutenberg-tm,
-including how to make donations to the Project Gutenberg Literary
-Archive Foundation, how to help produce our new eBooks, and how to
-subscribe to our email newsletter to hear about new eBooks.
-
-~~~
-Up arrow in a black command to reuse commands.
 
 You can use this method to quickly view all of a type of file in a directory.
 
@@ -277,48 +285,10 @@ Input
 $ head *.txt
 ~~~
 
-Output
-{: .label .label-yellow}
-~~~
-==> 829-0.txt <==
-The Project Gutenberg eBook, Gulliver's Travels, by Jonathan Swift
-
-
-This eBook is for the use of anyone anywhere at no cost and with
-almost no restrictions whatsoever.  You may copy it, give it away or
-re-use it under the terms of the Project Gutenberg License included
-with this eBook or online at www.gutenberg.org
-
-
-
-
-==> pg514.txt <==
-The Project Gutenberg EBook of Little Women, by Louisa May Alcott
-
-This eBook is for the use of anyone anywhere at no cost and with
-almost no restrictions whatsoever.  You may copy it, give it away or
-re-use it under the terms of the Project Gutenberg License included
-with this eBook or online at www.gutenberg.net
-
-
-Title: Little Women
-~~~
+Or only the first line of all of the files which might be useful if there are a lot of them. 
 
 Input
 {: .label .label-green}
 ~~~
 $ head -n1 *.txt
-~~~
-
-Output
-{: .label .label-yellow}
-~~~
-==> 33504-0.txt <==
-The Project Gutenberg EBook of Opticks, by Isaac Newton
-
-==> 829-0.txt <==
-The Project Gutenberg eBook, Gulliver's Travels, by Jonathan Swift
-
-==> pg514.txt <==
-The Project Gutenberg EBook of Little Women, by Louisa May Alcott
 ~~~
