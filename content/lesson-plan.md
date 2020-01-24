@@ -17,4 +17,4 @@ This workshop is intended to orient complete beginners to the Unix shell. By the
 | 0:20  | Navigating files and directories  |  
 | 0:40 | Working with files and directories |
 | 1:00 | Automating with loops |     
-| 1:20 | Next steps and siscussion |
+| 1:20 | Next steps and discussion |
