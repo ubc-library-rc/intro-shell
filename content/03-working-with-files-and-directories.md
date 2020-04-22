@@ -53,8 +53,8 @@ Now let's create a file. There are built-in text editors accessible through the 
 Input
 {: .label .label-green}
 ~~~
-$ touch myfile
-$ nano myfile
+$ touch myfile.txt
+$ nano myfile.txt
 $ ls
 ~~~
 Output
@@ -71,14 +71,14 @@ Now let's try moving our new file into our new directory to organize things a bi
 Input
 {: .label .label-green}
 ~~~
-$ mv myfile myfirstdirectory/myfile
+$ mv myfile myfirstdirectory/myfile.txt
 $ cd myfirstdirectory
 $ ls
 ~~~
 Output
 {: .label .label-yellow}
 ~~~
-myfile
+myfile.txt
 ~~~
 
 The mv function also renames files.
@@ -86,7 +86,7 @@ The mv function also renames files.
 Input
 {: .label .label-green}
 ~~~
-$ mv myfile mynewfile
+$ mv myfile.txt mynewfile.txt
 $ ls
 ~~~
 Output
@@ -100,7 +100,7 @@ The "cp" command lets you copy files, for example if you want to create a backup
 Input
 {: .label .label-green}
 ~~~
-$ cp mynewfile backup_mynewfile
+$ cp mynewfile.txt backup_mynewfile.txt
 ~~~
 
 And you can delete files through the "rm" command which stands for remove.
@@ -108,13 +108,13 @@ And you can delete files through the "rm" command which stands for remove.
 Input
 {: .label .label-green}
 ~~~
-$ rm backup_mynewfile
+$ rm backup_mynewfile.txt
 ls
 ~~~
 Output
 {: .label .label-yellow}
 ~~~
-mynewfile
+mynewfile.txt
 ~~~
 
 You can also delete directories but that requires an additional (and dangerous) flag. -r stands for "recursive" which essentially tells the command "rm" to keep going through all of the files that are inside the directory as well until there's nothing left.
@@ -178,7 +178,7 @@ Output
 Input
 {: .label .label-green}
 ~~~
-$ nano file1
+$ nano file1.txt
 ~~~
 
 Output
