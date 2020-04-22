@@ -246,7 +246,7 @@ World domination!
 Input
 {: .label .label-green}
 ~~~
-$ less
+$ less file1.txt
 ~~~
 
 Output
