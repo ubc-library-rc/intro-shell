@@ -32,14 +32,7 @@ Input
 {: .label .label-green}
 ~~~
 $ mkdir myfirstdirectory
-$ cd myfirstdirectory
 $ ls
-~~~
-
-Output
-{: .label .label-yellow}
-~~~
-myfirstdirectory
 ~~~
 
 You can see there is now a new directory in the same location. If we try going into it we will see that it's empty.
