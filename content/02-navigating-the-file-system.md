@@ -31,7 +31,7 @@ Output
 Input
 {: .label .label-green}
 ~~~
-$ cd open .
+$ open .
 ~~~
 
 ![Finder window](finder.png)
@@ -149,12 +149,12 @@ Output
 
 When typing a directory name, the case of the directory doesn't matter on Mac or PC but does on Linux.
 
-To move backwards in a directory use "cd .." which takes you back one step.
+To move backwards in a directory use "cd .." which takes you back one step or "cd -" which jumps you back to the beginning and prints the directory (in the same way pwd would). 
 
 Input
 {: .label .label-green}
 ~~~
-$ cd ..
+$ cd -
 ~~~
 Output
 {: .label .label-yellow}
