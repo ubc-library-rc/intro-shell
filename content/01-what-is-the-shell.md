@@ -4,9 +4,9 @@
  parent: Outline
  nav_order: 1
 ---
-<em><a href="../slides/introduction.html" target="_blank">View slides</a> for this section</em>
 
 # What is the shell?
+<em><a href="../slides/introduction.html" target="_blank">View slides</a> for this section</em>
 
 The shell (sometimes referred to as the “Unix shell”, for the operating system where it was first developed) is a program that allows you to interact with your computer using typed text commands. It is the primary interface used on Linux and Unix-based systems, such as macOS, and can be optionally installed on other operating systems such as older versions of Windows. As of Windows 10 the Unix shell comes pre-installed but must be turned on.
 
