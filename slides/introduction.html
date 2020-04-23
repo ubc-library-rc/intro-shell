@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Introduction - What is the Shell?</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/ubc.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+        <section data-background="#2F5D7C">
+          <h2>What is the Shell?</h2>
+        </section>
+
+				<section>
+				  A program that allows you to interact with your computer using typed text commands.
+				</section>
+
+        <section>
+          <h3>Why is it useful?</h3>
+					<ul>
+						<li class="fragment">It lets you skip the visual "middle man".</li>
+						<li classes="fragment">You can do something to many files or folder at once in many locations.</li>
+						<li classes="fragment">You can automate many steps in a task or a series of tasks.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>For example:</h3>
+					<ul>
+						<li class="fragment">Create backups of all files in a certain location or of a certain type.</li>
+						<li classes="fragment">Move all of the files of a certain type in all of the folders on your computer into one folder.</li>
+						<li classes="fragment">Get a dataset from a website that has an API endpoint.</li>
+						<li classes="fragment">Browse the web and scrape information from it.</li>
+						<li classes="fragment">Clean and sort data in and across files.</li>
+						<li classes="fragment">Search through all of your files for key words.</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Why the Unix Shell? What about Windows CMD?</h3>
+					<p class="fragment">Unix shell is more universally applicable and is well documented.</p>
+					<p class="fragment">Default on Mac.</p>
+					<p class="fragment">Present on PCs as of Win 10.</p>
+				</section>
+
+				<section>
+					<h3>Getting to the Unix shell</h3>
+					<ul>
+						<li class="fragment">On a Mac - the Terminal</li>
+						<li classes="fragment">On a PC - Linux Sub-system for Win10. Separate program to download for older versions of Windows.</li>
+					</ul>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+        controls: true,
+        progress: true,
+        center: true,
+        hash: true,
+        transition: 'none', // none/fade/slide/convex/concave/zoom
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
