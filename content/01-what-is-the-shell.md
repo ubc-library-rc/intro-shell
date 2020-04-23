@@ -4,6 +4,7 @@
  parent: Outline
  nav_order: 1
 ---
+<em><a href="../slides/introduction.html" target="_blank">View slides</a> for this section</em>
 
 # What is the shell?
 
