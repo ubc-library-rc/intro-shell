@@ -20,7 +20,7 @@ This is a quick summary of the commands mentioned in this workshop by section.
 | ls -l  | view more detailed list of files or directory  |  
 | ls -lh | view more detailed list and make numbers more human-readable  |   
 | cd | navigate between directories |
-| cd.. | go back one step while navigating between folders |
+| cd .. | go back one step while navigating between folders |
 | cd - | jump back to previous directory however many steps ago it was |
 | man | open a manual about a command |
 
