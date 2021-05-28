@@ -1,3 +1,17 @@
-title: The Unix Shell
+title: Introduction to the Unix Shell
 remote_theme: ubc-library-rc/rc-workshop-template
 footer_content: "<a href=\"https://github.com/ubc-library-rc/intro-shell\">View workshop content in GitHub</a>"
+aux_links:
+  "UBC Library Research Commons Workshops":
+    - "https://researchcommons.library.ubc.ca/workshops/"
+github_repo_url: "https://github.com/ubc-library-rc/intro-shell/"
+
+# license information for workshop content
+license_name: "Creative Commons Attribution 4.0 International License"
+license_url: "http://creativecommons.org/licenses/by/4.0/"
+license_image_url: "https://i.creativecommons.org/l/by/4.0/88x31.png"
+
+# required for building jekyll site locally
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
