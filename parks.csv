@@ -1,0 +1,217 @@
+ParkID;Name;Official;Advisories;SpecialFeatures;Facilities;Washrooms;StreetNumber;StreetName;EWStreet;NSStreet;NeighbourhoodName;NeighbourhoodURL;Hectare;GoogleMapDest
+1;Arbutus Village Park;1;N;N;Y;N;4202;Valley Drive;King Edward Avenue;Valley Drive;Arbutus-Ridge;https://vancouver.ca/news-calendar/arbutus-ridge.aspx;1.41;49.249783,-123.15525
+4;Park Site on Puget Drive;0;N;N;N;N;4309;Puget Drive;Puget Drive;MacDonald Street;Arbutus-Ridge;https://vancouver.ca/news-calendar/arbutus-ridge.aspx;0.09;49.247723,-123.168194
+10;Andy Livingstone Park;1;N;N;Y;Y;89;Expo Boulevard;Expo Boulevard;Carrall Street;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;4.21;49.278923,-123.1055
+14;Coopers' Park;1;N;Y;Y;N;1020;Marinaside Crescent;Nelson Street;Marinaside Crescent;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;1.71;49.273253,-123.1139
+18;Devonian Harbour Park;1;N;Y;Y;N;1929;W Georgia Street;W Georgia Street;Denman Street;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;4.42;49.294353,-123.134654
+19;Art Phillips Park;1;N;N;N;N;625;Burrard Street;Melville Street;Burrard Street;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;0.1;49.285911,-123.120948
+23;Helmcken Park;1;N;N;N;N;1103;Pacific Boulevard;Helmcken Street;Pacific Boulevard;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;0.17;49.274814,-123.119555
+25;May & Lorne Brown Park;1;N;N;N;N;801;Beach Avenue;Beach Avenue;Hornby Street;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;0.25;49.275188,-123.132046
+37;Chaldecott Park;1;N;N;Y;Y;4175;Wallace Street;King Edward Avenue;Wallace Street;Dunbar-Southlands;https://vancouver.ca/news-calendar/dunbar-southlands.aspx;3.45;49.249092,-123.192177
+42;Valdez Park;1;N;N;Y;N;3210;W 22nd Avenue;W 22nd Avenue;Balaclava Street;Dunbar-Southlands;https://vancouver.ca/news-calendar/dunbar-southlands.aspx;0.77;49.252391,-123.1764
+45;Granville Loop Park;0;N;N;Y;N;1435;W 5th Avenue;W 5th Avenue;Granville Street;Fairview;https://vancouver.ca/news-calendar/fairview.aspx;1.05;49.267284,-123.13754
+48;Willow Park;1;N;N;N;N;802;W 7th Avenue;W 7th Avenue;Willow Street;Fairview;https://vancouver.ca/news-calendar/fairview.aspx;0.07;49.264868,-123.122031
+49;Alice Townley Park;1;N;N;N;N;1775;Woodland Drive;E 2nd Avenue;Woodland Drive;Grandview-Woodland;https://vancouver.ca/news-calendar/grandview-woodland.aspx;0.22;49.268974,-123.073923
+51;Garden Park;1;N;N;Y;Y;1851;Garden Drive;E 3rd Avenue;Garden Drive;Grandview-Woodland;https://vancouver.ca/news-calendar/grandview-woodland.aspx;0.97;49.268159,-123.058994
+55;Mosaic Creek Park;1;N;N;N;N;1475;Charles Street;Charles Street;McLean Drive;Grandview-Woodland;https://vancouver.ca/news-calendar/grandview-woodland.aspx;0.11;49.273323,-123.074121
+60;Templeton Park;1;N;N;Y;N;700;Templeton Drive;Adanac Street;Templeton Drive;Grandview-Woodland;https://vancouver.ca/news-calendar/grandview-woodland.aspx;1.93;49.278279,-123.058646
+65;Adanac Park;1;N;N;Y;Y;1025;Boundary Road;Adanac Street;Boundary Road;Hastings-Sunrise;https://vancouver.ca/news-calendar/hastings-sunrise.aspx;4.17;49.276381,-123.025811
+66;Bates Park;1;N;N;N;N;669;Fellowes Street;Fellowes Street;High Road;Hastings-Sunrise;https://vancouver.ca/news-calendar/hastings-sunrise.aspx;0.3;49.292443,-123.024336
+68;Callister Park;1;N;N;Y;N;2875;Oxford Street;Oxford Street;Renfrew Street;Hastings-Sunrise;https://vancouver.ca/news-calendar/hastings-sunrise.aspx;1.45;49.286214,-123.045363
+70;Clinton Park;1;N;N;Y;Y;2690;Grant Street;Grant Street;Slocan Street;Hastings-Sunrise;https://vancouver.ca/news-calendar/hastings-sunrise.aspx;3.04;49.270355,-123.0509
+72;Hastings Park;1;N;N;Y;Y;2901;E Hastings;E Hastings Street;Renfrew Street;Hastings-Sunrise;https://vancouver.ca/news-calendar/hastings-sunrise.aspx;62.0;49.282256,-123.039776
+78;Thunderbird Park;1;N;N;Y;N;3485;E 2nd Avenue;E 2nd Avenue;Skeena Street;Hastings-Sunrise;https://vancouver.ca/news-calendar/hastings-sunrise.aspx;0.89;49.268829,-123.028552
+83;Glen Park;1;N;N;Y;N;3999;Glen Drive;E 24th Avenue;Glen Drive;Kensington-Cedar Cottage;https://vancouver.ca/news-calendar/kensington-cedar-cottage.aspx;1.09;49.249576,-123.082823
+85;John Hendry (Trout Lake) Park;1;N;N;Y;Y;3300;Victoria Drive;E 15th Avenue;Victoria Drive;Kensington-Cedar Cottage;https://vancouver.ca/news-calendar/kensington-cedar-cottage.aspx;27.31;49.255808,-123.062242
+86;Jones Park;1;N;N;Y;Y;5350;Commercial Street;E 38th Avenue;Commercial Street;Kensington-Cedar Cottage;https://vancouver.ca/news-calendar/kensington-cedar-cottage.aspx;1.42;49.235945,-123.067051
+95;Malkin Park;1;N;N;N;N;6001;Balaclava Street;W 44th Avenue;Balaclava Street;Kerrisdale;https://vancouver.ca/news-calendar/kerrisdale.aspx;2.42;49.231959,-123.176845
+96;Maple Grove Park;1;N;N;Y;Y;6875;Yew Street;W 51st Avenue;Yew Street;Kerrisdale;https://vancouver.ca/news-calendar/kerrisdale.aspx;4.2;49.223703,-123.16013
+98;McCleery Golf Course;1;N;N;Y;N;7188;Macdonald Street;W 55th Avenue;MacDonald Street;Kerrisdale;https://vancouver.ca/news-calendar/kerrisdale.aspx;48.57;49.220813,-123.170066
+99;Captain Cook Park;1;N;N;Y;N;3398;E 54th Avenue;E 54th Avenue;Champlain Crescent;Killarney;https://vancouver.ca/news-calendar/killarney.aspx;5.49;49.21912,-123.033713
+102;Fraserview Golf Course;1;N;N;Y;Y;7800;Vivian Drive;E 54th Avenue;Vivian Drive;Killarney;https://vancouver.ca/news-calendar/killarney.aspx;84.34;49.212251,-123.047869
+104;Kinross Ravine Park;1;N;N;N;N;3350;SE Marine Drive;3350 SE Marine Drive;Kinross Street;Killarney;https://vancouver.ca/news-calendar/killarney.aspx;1.2;49.207509,-123.036128
+110;Hadden Park;1;N;Y;Y;Y;1905;Ogden Avenue;Ogden Avenue;Cypress Street;Kitsilano;https://vancouver.ca/news-calendar/kitsilano.aspx;2.92;49.275353,-123.152513
+112;Kitsilano Beach Park;1;N;Y;Y;Y;1499;Arbutus Street;Cornwall Avenue;Arbutus Street;Kitsilano;https://vancouver.ca/news-calendar/kitsilano.aspx;13.47;49.273431,-123.153901
+113;Margaret Pigott Park;1;N;N;N;N;2743;Point Grey Road;Point Grey Road;Macdonald Street;Kitsilano;https://vancouver.ca/news-calendar/kitsilano.aspx;0.38;49.272089,-123.167454
+116;Point Grey Park Site at Stephens Street;0;N;N;N;N;2699;Point Grey Road;Point Grey Road;Stephens Street;Kitsilano;https://vancouver.ca/news-calendar/kitsilano.aspx;0.23;49.272583,-123.166128
+117;Point Grey Park Site at Trafalgar Street;0;N;N;N;N;2601;Point Grey Road;Point Grey Road;Trafalgar Street;Kitsilano;https://vancouver.ca/news-calendar/kitsilano.aspx;0.22;49.273329,-123.164637
+120;Vanier Park;1;N;Y;N;Y;1000;Chestnut Street;Whyte Avenue;Chestnut Street;Kitsilano;https://vancouver.ca/news-calendar/kitsilano.aspx;16.95;49.277049,-123.143159
+121;Volunteer Park;1;N;N;N;N;2855;Point Grey Road;Point Grey Road;Macdonald Street;Kitsilano;https://vancouver.ca/news-calendar/kitsilano.aspx;0.72;49.271635,-123.169243
+126;Oak Park;1;N;N;Y;Y;900;W 59th Avenue;W 59th Avenue;Oak Street;Marpole;https://vancouver.ca/news-calendar/marpole.aspx;5.25;49.215497,-123.128319
+137;Jonathan Rogers Park;1;N;N;Y;Y;110;W 7th Avenue;W 7th Avenue;Manitoba Street;Mount Pleasant;https://vancouver.ca/news-calendar/mount-pleasant.aspx;1.4;49.264334,-123.108174
+148;Beaconsfield Park;1;N;N;Y;Y;3215;Slocan Street;E 15th Avenue;Slocan Street;Renfrew-Collingwood;https://vancouver.ca/news-calendar/renfrew.aspx;4.43;49.255546,-123.051302
+156;Melbourne Park;1;N;N;Y;N;3530;Vanness Avenue;Vanness Avenue;Melbourne Street;Renfrew-Collingwood;https://vancouver.ca/news-calendar/renfrew.aspx;0.49;49.236236,-123.029179
+159;Renfrew Community Park;1;N;N;Y;N;2929;E 22nd Avenue;E 22nd Avenue;Renfrew Street;Renfrew-Collingwood;https://vancouver.ca/news-calendar/renfrew.aspx;5.0;49.252129,-123.042896
+162;Cartier Park;1;N;N;Y;N;390;E 36th Avenue;E 36th Avenue;Prince Edward Street;Riley Park;https://vancouver.ca/news-calendar/renfrew.aspx;0.37;49.237598,-123.097473
+165;Nat Bailey Stadium;1;N;N;Y;N;4601;Ontario Street;W 30th Avenue;Ontario Street;Riley Park;https://vancouver.ca/news-calendar/renfrew.aspx;6.21;49.242653,-123.106679
+172;Shaughnessy Park;1;N;N;N;N;1300;The Crescent;The Crescent;Hudson Street;Shaughnessy;https://vancouver.ca/news-calendar/shaughnessy.aspx;1.45;49.255715,-123.135068
+180;Oppenheimer Park;1;N;Y;Y;Y;400;Powell Street;Powell Street;Jackson Street;Strathcona;https://vancouver.ca/news-calendar/strathcona.aspx;1.0;49.282645,-123.094313
+185;MacDonald Park;1;N;N;Y;N;300;E 44th Avenue;E 44th Avenue;Prince Edward Street;Sunset;https://vancouver.ca/news-calendar/sunset.aspx;1.05;49.229748,-123.098396
+187;Moberly Park;1;N;N;Y;Y;7646;Prince Albert Street;E 59th Avenue;Prince Albert Street;Sunset;https://vancouver.ca/news-calendar/sunset.aspx;3.6;49.215602,-123.086219
+189;Sunset Park;1;N;N;Y;N;404;E 51st Avenue;E 51st Avenue;Prince Edward Street;Sunset;https://vancouver.ca/news-calendar/sunset.aspx;3.42;49.222561,-123.096916
+191;Bobolink Park;1;N;N;Y;Y;2510;Hoylake Avenue;Hoylake Avenue;Muirfield Drive;Victoria-Fraserview;https://vancouver.ca/news-calendar/victoria-fraserview.aspx;3.82;49.215075,-123.057615
+198;Tecumseh Park;1;N;N;Y;N;1751;E 45th Avenue;E 45th Avenue;Bruce Street;Victoria-Fraserview;https://vancouver.ca/news-calendar/victoria-fraserview.aspx;2.09;49.229752,-123.069846
+202;Morton Park;1;N;N;N;N;1800;Morton Avenue;Morton Avenue;Denman Street;West End;https://vancouver.ca/news-calendar/west-end.aspx;0.22;49.28768,-123.141955
+203;Nelson Park;1;N;N;Y;N;1030;Bute Street;Nelson Street;Bute Street;West End;https://vancouver.ca/news-calendar/west-end.aspx;1.16;49.282855,-123.129558
+206;Stanley Park;1;N;Y;Y;Y;2000;W Georgia Street;W Georgia Street;Chilco Street;West End;https://vancouver.ca/news-calendar/west-end.aspx;400.0;49.302701,-123.144307
+220;Spanish Banks Beach Park;1;N;Y;Y;Y;4801;NW Marine Drive;NW Marine Drive;Blanca Street;West Point Grey;https://vancouver.ca/news-calendar/point-grey.aspx;6.53;49.277063,-123.216909
+221;West Point Grey Park;1;N;N;Y;Y;2250;Trimble Street;W 8th Avenue;Trimble Street;West Point Grey;https://vancouver.ca/news-calendar/point-grey.aspx;3.4;49.266301,-123.204312
+222;Westmount Park;1;N;N;Y;N;4651;W 2nd Avenue;W 2nd Avenue;Blanca Street;West Point Grey;https://vancouver.ca/news-calendar/point-grey.aspx;0.4;49.271852,-123.214423
+228;Oak Meadows Park;0;N;Y;Y;N;899;W 37th Avenue;W 37th Avenue;Oak Street;South Cambie;https://vancouver.ca/news-calendar/south-cambie.aspx;5.0;49.238445,-123.125795
+234;Aberdeen Park;1;N;N;Y;N;3525;Foster Avenue;Foster Avenue;Aberdeen Street;Renfrew-Collingwood;https://vancouver.ca/news-calendar/renfrew.aspx;1.0;49.234765,-123.027446
+236;Ebisu Park;0;N;N;Y;N;8810;Olser Street;W 72nd Avenue;Olser Street;Marpole;https://vancouver.ca/news-calendar/marpole.aspx;0.4;49.205468,-123.132836
+238;Carolina Park;1;N;N;N;N;2100;Carolina Street;E 5th Avenue;Carolina Street;Mount Pleasant;https://vancouver.ca/news-calendar/mount-pleasant.aspx;0.08;49.266401,-123.090778
+241;Habitat Island;0;N;N;N;N;1616;Columbia Street;;;Mount Pleasant;https://vancouver.ca/news-calendar/mount-pleasant.aspx;0.6;49.27221,-123.110791
+246;Creekway Park;1;N;N;N;N;2901;E Hastings Street;McGill Street;;Hastings-Sunrise;https://vancouver.ca/news-calendar/hastings-sunrise.aspx;8.0;49.288336,-123.036982
+2;Carnarvon Park;1;N;N;Y;Y;2995;W 19th Avenue;W 19th Avenue;Mackenzie Street;Arbutus-Ridge;https://vancouver.ca/news-calendar/arbutus-ridge.aspx;3.79;49.256555,-123.171406
+5;Park Site on Quesnel Drive;0;N;N;N;N;4301;Quesnel Drive;Quesnel Drive;MacKenzie Street;Arbutus-Ridge;https://vancouver.ca/news-calendar/arbutus-ridge.aspx;0.03;49.247623,-123.169948
+7;Ravine Park;1;N;N;N;N;2159;W 36th Avenue;W 36th Avenue;Arbutus Street;Arbutus-Ridge;https://vancouver.ca/news-calendar/arbutus-ridge.aspx;0.72;49.240902,-123.155935
+9;Park Site on Trafalgar Street;0;N;N;N;N;4600;Trafalgar Street;W 31st Avenue;Trafalgar Street;Arbutus-Ridge;https://vancouver.ca/news-calendar/arbutus-ridge.aspx;0.14;49.244396,-123.165105
+11;Cardero Park;1;N;Y;N;N;1601;Bayshore Drive;Bayshore Drive;Cardero Street;West End;https://vancouver.ca/news-calendar/west-end.aspx;0.33;49.292211,-123.128206
+21;Harbour Green Park;1;N;Y;Y;Y;1199;W Cordova Street;W Cordova Street;Bute Street;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;3.1;49.290263,-123.121924
+24;Marina Square;1;N;Y;N;N;1675;Bayshore Drive;Bayshore Drive;Denman Street;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;0.63;49.292334,-123.131296
+26;Pioneer Place (Pigeon Park);1;N;N;N;N;399;Carrall Street;W Hastings Street;Carrall Street;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;0.03;49.281699,-123.104588
+28;CRAB Park at Portside;1;N;N;Y;Y;101;E Waterfront Road;E Waterfront Road;Main Street;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;3.31;49.284942,-123.102377
+31;Victory Square;1;N;N;N;N;200;W Hastings Street;W Hastings Street;Cambie Street;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;0.39;49.282218,-123.110133
+32;Wendy Poole Park;1;N;N;N;N;199;Alexander Street;Alexander Street;Main Street;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;0.04;49.284296,-123.099666
+34;Balaclava Park;1;N;N;Y;Y;4594;Balaclava Street;W 29th Avenue;Balaclava Street;Dunbar-Southlands;https://vancouver.ca/news-calendar/dunbar-southlands.aspx;5.0;49.244951,-123.175247
+35;Park Site on Blenheim;1;N;N;N;N;3500;Quadra Street;W 19th Avenue;Quadra Street;Arbutus-Ridge;https://vancouver.ca/news-calendar/arbutus-ridge.aspx;0.07;49.255575,-123.178934
+39;Memorial West Park;1;N;N;Y;Y;4701;Dunbar Street;W 31st Avenue;Dunbar Street;Dunbar-Southlands;https://vancouver.ca/news-calendar/dunbar-southlands.aspx;7.49;49.243326,-123.188166
+43;Charleson Park;1;N;Y;Y;N;999;Charleson Street;Charleson Street;Laurel Street;Fairview;https://vancouver.ca/news-calendar/fairview.aspx;7.14;49.266995,-123.1242
+44;Granville Park;1;N;N;Y;Y;3001;Fir Street;W 14th Avenue;Fir Street;Fairview;https://vancouver.ca/news-calendar/fairview.aspx;1.96;49.258105,-123.142395
+47;Sutcliffe Park;1;N;Y;Y;N;1318;Cartwright Street;Island Park Walk;Old Bridge Walk;Fairview;https://vancouver.ca/news-calendar/fairview.aspx;2.88;49.268871,-123.134832
+57;Pandora Park;1;N;N;Y;Y;2325;Franklin Street;Franklin Street;Garden Drive;Grandview-Woodland;https://vancouver.ca/news-calendar/grandview-woodland.aspx;1.66;49.282533,-123.058045
+58;Salsbury Park;1;N;N;N;N;1806;Adanac Street;Adanac Street;Salsbury Drive;Grandview-Woodland;https://vancouver.ca/news-calendar/grandview-woodland.aspx;0.17;49.277291,-123.067926
+61;Park Site on Trinity Street;1;N;N;N;N;2303;Wall Street;Trinity Street;Wall Street;Hastings-Sunrise;https://vancouver.ca/news-calendar/hastings-sunrise.aspx;0.1;49.289561,-123.059459
+62;Victoria Park;1;N;N;Y;Y;1425;Victoria Drive;Kitchener Street;Victoria Drive;Grandview-Woodland;https://vancouver.ca/news-calendar/grandview-woodland.aspx;0.89;49.271694,-123.06673
+63;W.C. Shelly Park;1;N;N;Y;N;1500;E 8th Avenue;E 8th Avenue;Woodland Drive;Grandview-Woodland;https://vancouver.ca/news-calendar/grandview-woodland.aspx;0.3;49.263034,-123.072931
+67;Burrard View Park;1;N;N;Y;Y;650;North Penticton Street;Wall Street;N Penticton Street;Hastings-Sunrise;https://vancouver.ca/news-calendar/hastings-sunrise.aspx;2.76;49.291253,-123.050513
+69;Charles Park;1;N;N;N;N;3400;Charles Street;Charles Street;Kootenay Street;Hastings-Sunrise;https://vancouver.ca/news-calendar/hastings-sunrise.aspx;1.55;49.273407,-123.027661
+71;Dusty Greenwell Park;1;N;N;Y;N;2799;Wall Street;Wall Street;North Kaslo Street;Hastings-Sunrise;https://vancouver.ca/news-calendar/hastings-sunrise.aspx;0.44;49.292113,-123.047643
+73;Hastings Community Park;1;N;N;Y;Y;3000;E Pender Street;E Pender Street;E Hastings Street;Hastings-Sunrise;https://vancouver.ca/news-calendar/hastings-sunrise.aspx;4.19;49.280637,-123.038884
+80;Cedar Cottage Park;1;N;N;Y;N;2650;Clark Drive;E 11th Avenue;Clark Drive;Kensington-Cedar Cottage;https://vancouver.ca/news-calendar/kensington-cedar-cottage.aspx;0.47;49.260807,-123.076605
+87;Kensington Park;1;N;N;Y;N;5175;Dumfries Street;E 37th Avenue;Dumfries Street;Kensington-Cedar Cottage;https://vancouver.ca/news-calendar/kensington-cedar-cottage.aspx;5.84;49.238478,-123.075308
+89;Sunnyside Park;1;N;N;Y;N;1100;E 17th Avenue;E 17th Avenue;Inverness Street;Kensington-Cedar Cottage;https://vancouver.ca/news-calendar/kensington-cedar-cottage.aspx;0.97;49.254924,-123.080752
+90;Arbutus Park;1;N;N;Y;N;7601;Arbutus Street;SW Marine Drive;Arbutus Street;Kerrisdale;https://vancouver.ca/news-calendar/kerrisdale.aspx;0.74;49.21659,-123.15513
+91;Elm Park;1;N;N;Y;Y;5800;Elm Street;W 41st Avenue;Elm Street;Kerrisdale;https://vancouver.ca/news-calendar/kerrisdale.aspx;1.49;49.233847,-123.163488
+93;Kerrisdale Centennial Park;1;N;N;Y;N;5898;Yew Street;W 42nd Avenue;Yew Street;Kerrisdale;https://vancouver.ca/news-calendar/kerrisdale.aspx;1.53;49.233094,-123.158043
+97;McCleery Park;1;N;N;N;N;6501;Marine Crescent;W 49th Avenue;Marine Crescent;Kerrisdale;https://vancouver.ca/news-calendar/kerrisdale.aspx;0.25;49.226973,-123.164155
+101;Everett Crowley Park;1;N;N;Y;N;8200;Kerr Street;SE Marine Drive;Kerr Street;Killarney;https://vancouver.ca/news-calendar/killarney.aspx;38.08;49.210985,-123.036321
+103;Killarney Park;1;N;N;Y;N;6205;Kerr Street;Waverley Street;Kerr Street;Killarney;https://vancouver.ca/news-calendar/killarney.aspx;13.36;49.227998,-123.04413
+105;Sparwood Park;1;N;N;Y;N;6998;Arlington Street;Whithorn Court;Arlington Street;Killarney;https://vancouver.ca/news-calendar/killarney.aspx;3.6;49.220024,-123.028777
+109;Delamont Park;1;N;N;Y;N;2091;W 7th Avenue;W 7th Avenue;Arbutus Street;Kitsilano;https://vancouver.ca/news-calendar/kitsilano.aspx;0.22;49.265808,-123.152426
+111;Jean Beaty Park;1;N;N;N;N;3393;Point Grey Road;Point Grey Road;Waterloo Street;West Point Grey;https://vancouver.ca/news-calendar/point-grey.aspx;0.04;49.271913,-123.179433
+118;Seaforth Peace Park;1;N;N;N;N;1620;Chestnut Street;Cornwall Avenue;Chestnut Street;Kitsilano;https://vancouver.ca/news-calendar/kitsilano.aspx;0.74;49.271554,-123.145967
+119;Tatlow Park;1;N;N;Y;Y;2845;W 3rd Avenue;Point Grey Road;Point Grey Road;Kitsilano;https://vancouver.ca/news-calendar/kitsilano.aspx;1.4;49.270068,-123.169609
+123;Eburne Park;1;N;N;Y;N;950;W 71st Avenue;W 71st Avenue;Oak Street;Marpole;https://vancouver.ca/news-calendar/marpole.aspx;0.9;49.206517,-123.129241
+124;Marpole Park;1;N;N;Y;N;1410;W 72nd Avenue;W 72nd Avenue;Cartier Street;Marpole;https://vancouver.ca/news-calendar/marpole.aspx;0.27;49.205507,-123.138307
+127;Riverview Park;1;N;N;Y;N;1751;W 66th Avenue;W 66th Avenue;Angus Drive;Marpole;https://vancouver.ca/news-calendar/marpole.aspx;2.38;49.212238,-123.147342
+130;William Mackie Park;1;N;N;Y;N;1592;W 71st Avenue;W 71st Avenue;SW Marine Drive;Marpole;https://vancouver.ca/news-calendar/marpole.aspx;0.37;49.206787,-123.142733
+133;China Creek North Park;1;N;N;Y;N;1001;E 7th Avenue;E 7th Avenue;Glen Drive;Mount Pleasant;https://vancouver.ca/news-calendar/mount-pleasant.aspx;3.16;49.264901,-123.083355
+134;China Creek South Park;1;N;N;Y;N;1255;E 10th Avenue;E 10th Avenue;Clark Drive;Mount Pleasant;https://vancouver.ca/news-calendar/mount-pleasant.aspx;1.47;49.261581,-123.079352
+138;Major Matthews Park;1;N;N;Y;N;2627;Manitoba Street;W 11th Avenue;Manitoba Street;Mount Pleasant;https://vancouver.ca/news-calendar/mount-pleasant.aspx;0.06;49.26158,-123.107238
+139;Mount Pleasant Park;1;N;N;Y;N;3161;Ontario Street;W 16th Avenue;Ontario Street;Mount Pleasant;https://vancouver.ca/news-calendar/mount-pleasant.aspx;1.12;49.25696,-123.106743
+140;Robson Park;1;N;N;Y;Y;599;Kingsway;Kingsway;St. George Street;Mount Pleasant;https://vancouver.ca/news-calendar/mount-pleasant.aspx;1.56;49.258229,-123.091798
+141;Tea Swamp Park;1;N;N;Y;N;266;E 15th Avenue;E 15th Avenue;Sophia Street;Mount Pleasant;https://vancouver.ca/news-calendar/mount-pleasant.aspx;0.09;49.257091,-123.098595
+142;Cambie Park;1;N;N;N;N;500;W 54th Avenue;W 54th Avenue;Cambie Street;Oakridge;https://vancouver.ca/news-calendar/oakridge.aspx;0.93;49.221411,-123.117988
+143;Columbia Park;1;N;N;Y;Y;5908;Alberta Street;W 42nd Avenue;Alberta Street;Oakridge;https://vancouver.ca/news-calendar/oakridge.aspx;2.78;49.231521,-123.111978
+145;Langara Golf Course;1;N;N;Y;N;6706;Alberta Street;W 49th Avenue;Alberta Street;South Cambie;https://vancouver.ca/news-calendar/south-cambie.aspx;48.57;49.221371,-123.11211
+150;Carleton Park;1;N;N;Y;N;3450;Price Street;Price Street;Joyce Street;Renfrew-Collingwood;https://vancouver.ca/news-calendar/renfrew.aspx;0.68;49.242002,-123.030451
+152;Earles Park;1;N;N;Y;N;2801;E 41st Avenue;E 41st Avenue;Earles Street;Renfrew-Collingwood;https://vancouver.ca/news-calendar/renfrew.aspx;1.59;49.233476,-123.047702
+153;Falaise Park;1;N;N;Y;Y;3434;Falaise Avenue;Worthington Drive;Falaise Avenue;Renfrew-Collingwood;https://vancouver.ca/news-calendar/renfrew.aspx;7.57;49.256485,-123.031631
+154;Foster Park;1;N;N;Y;N;5501;Aberdeen Street;Foster Avenue;Aberdeen Street;Renfrew-Collingwood;https://vancouver.ca/news-calendar/renfrew.aspx;0.29;49.234046,-123.028741
+155;Gaston Park;1;N;N;Y;N;3470;Crowley Drive;Crowley Drive;Tyne Street;Renfrew-Collingwood;https://vancouver.ca/news-calendar/renfrew.aspx;1.5;49.236117,-123.031094
+161;Slocan Park;1;N;N;Y;Y;2750;E 29th Avenue;E 29th Avenue;Slocan Street;Renfrew-Collingwood;https://vancouver.ca/news-calendar/renfrew.aspx;4.14;49.243921,-123.047574
+164;Hillcrest Park;1;N;N;Y;N;4501;Clancy Loranger Way;Midlothian Avenue;Clancy Loranger Way;Riley Park;https://vancouver.ca/news-calendar/renfrew.aspx;7.51;49.244734,-123.108417
+166;Prince Edward Park;1;N;N;Y;Y;3773;Prince Edward Street;E 21st Avenue;Prince Edward Street;Riley Park;https://vancouver.ca/news-calendar/renfrew.aspx;1.21;49.2512273,-123.0971535
+167;Queen Elizabeth Park;1;N;N;Y;Y;4600;Cambie Street;W 29th Avenue;Cambie Street;Riley Park;https://vancouver.ca/news-calendar/renfrew.aspx;52.98;49.240978,-123.112028
+168;Riley Park;1;N;N;Y;N;50;E 30th Avenue;E 30th Avenue;Ontario Street;Riley Park;https://vancouver.ca/news-calendar/renfrew.aspx;2.7;49.241987,-123.104361
+169;Angus Park;1;N;N;N;N;3600;Angus Drive;Alexandra Street;Angus Drive;Shaughnessy;https://vancouver.ca/news-calendar/shaughnessy.aspx;1.0;49.253932,-123.143816
+170;Devonshire Park;1;N;N;N;N;1250;Devonshire Crescent;Devonshire Crescent;Selkirk Street;Shaughnessy;https://vancouver.ca/news-calendar/shaughnessy.aspx;1.53;49.24502,-123.13364
+174;Braemar Park;1;N;N;Y;Y;895;W 27th Avenue;W 27th Avenue;Willow Street;South Cambie;https://vancouver.ca/news-calendar/south-cambie.aspx;1.26;49.247615,-123.12363
+175;Douglas Park;1;N;N;Y;N;801;W 22nd Avenue;W 22nd Avenue;Heather Street;South Cambie;https://vancouver.ca/news-calendar/south-cambie.aspx;5.32;49.252493,-123.122225
+177;Heather Park;1;N;N;Y;N;702;W 18th Avenue;W 18th Avenue;Heather Street;South Cambie;https://vancouver.ca/news-calendar/south-cambie.aspx;0.98;49.254765,-123.121103
+181;Strathcona Park;1;N;N;Y;Y;857;Malkin Avenue;Malkin Avenue;Hawks Avenue;Strathcona;https://vancouver.ca/news-calendar/strathcona.aspx;10.07;49.275276,-123.084674
+183;Thornton Park;1;N;N;N;N;1166;Main Street;Terminal Avenue;Main Street;Strathcona;https://vancouver.ca/news-calendar/strathcona.aspx;1.49;49.273946,-123.099212
+193;Gladstone-Riverside Park;1;N;N;N;N;2500;E Kent Street S;E Kent Street S;Nanaimo Street;Victoria-Fraserview;https://vancouver.ca/news-calendar/victoria-fraserview.aspx;1.07;49.205532,-123.056883
+196;Nanaimo Park;1;N;N;Y;Y;2390;E 46th Avenue;E 46th Avenue;Nanaimo Street;Victoria-Fraserview;https://vancouver.ca/news-calendar/victoria-fraserview.aspx;2.91;49.227724,-123.057508
+197;Riverfront Park;1;N;N;Y;Y;2750;E Kent Ave S;E Kent Ave S;Elliott Street;Killarney;https://vancouver.ca/news-calendar/killarney.aspx;4.01;49.205951,-123.04575
+199;Alexandra Park;1;N;N;N;N;1755;Beach Avenue;Beach Avenue;Bidwell Street;West End;https://vancouver.ca/news-calendar/west-end.aspx;0.55;49.28546,-123.14223
+200;Barclay Heritage Square;1;N;N;N;Y;1433;Barclay Street;Barclay Street;Nicola Street;West End;https://vancouver.ca/news-calendar/west-end.aspx;0.56;49.28718,-123.132167
+204;Rosemont Park;0;N;N;N;N;3101;Rosemont Drive;Rosemont Drive;Kerr Street;Killarney;https://vancouver.ca/news-calendar/killarney.aspx;1.36;49.215746,-123.040816
+207;Sunset Beach Park;1;N;Y;Y;Y;1204;Beach Avenue;Beach Avenue;Bute Street;West End;https://vancouver.ca/news-calendar/west-end.aspx;3.61;49.281211,-123.139681
+212;Sahalli Park;0;N;N;N;N;2300;Fraser Street;E 7th Avenue;Fraser Street;Mount Pleasant;https://vancouver.ca/news-calendar/mount-pleasant.aspx;0.06;49.263885,-123.089121
+217;Hastings Mill Park;1;N;N;Y;N;1575;Alma Street;Point Grey Road;Alma Street;West Point Grey;https://vancouver.ca/news-calendar/point-grey.aspx;1.23;49.27279,-123.186689
+218;Jericho Beach Park;1;N;N;Y;Y;3941;Point Grey Road;Point Grey Road;Wallace Street;West Point Grey;https://vancouver.ca/news-calendar/point-grey.aspx;46.71;49.271513,-123.197415
+224;Choklit Park;1;N;N;Y;N;2400;Spruce Street;W 7th Avenue;Spruce Street;Fairview;https://vancouver.ca/news-calendar/fairview.aspx;0.07;49.265482,-123.128905
+225;George Wainborn Park;1;N;Y;N;N;450;Beach Crescent;Beach Crescent;;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;2.49;49.272541,-123.129311
+231;Camosun;0;N;N;N;N;4102;W 16th Avenue;W 16th Avenue;Discovery Street;Dunbar-Southlands;https://vancouver.ca/news-calendar/dunbar-southlands.aspx;0.0;49.257423,-123.201329
+233;Arbutus Greenway Park;1;N;N;N;N;2205;W11th Avenue;W 11th Avenue;Arbutus Street;Kitsilano;https://vancouver.ca/news-calendar/kitsilano.aspx;1.08;49.262283,-123.154927
+237;Yaletown Park;1;N;N;N;N;901;Mainland Street;Mainland Street;Nelson Street;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;0.17;49.277042,-123.118921
+244;Fraser River Trail;1;N;N;N;N;9149;Hudson Street;SW Marine Drive;Hudson Street;Marpole;https://vancouver.ca/news-calendar/marpole.aspx;0.35;49.200357,-123.135862
+245;Trillium Park;0;N;N;Y;Y;600;National Avenue;National Avenue;Thornton Street;Strathcona;https://vancouver.ca/news-calendar/strathcona.aspx;3.05;49.275015,-123.093116
+3;Prince of Wales Park;1;N;N;Y;N;4780;Haggart Street;W 32nd Avenue;Haggart Street;Arbutus-Ridge;https://vancouver.ca/news-calendar/arbutus-ridge.aspx;2.89;49.244397,-123.156429
+6;Quilchena Park;1;N;Y;Y;Y;4590;Magnolia Street;W 33rd Avenue;Magnolia Street;Arbutus-Ridge;https://vancouver.ca/news-calendar/arbutus-ridge.aspx;7.67;49.24369,-123.148865
+8;Trafalgar Park;1;N;N;Y;Y;2610;W 23rd Avenue;W 23rd Avenue;Valley Drive;Arbutus-Ridge;https://vancouver.ca/news-calendar/arbutus-ridge.aspx;4.85;49.25046,-123.161879
+12;Cathedral Square;1;N;N;N;N;566;Richards Street;Dunsmuir Street;Richards Street;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;0.27;49.282084,-123.113877
+13;Coal Harbour Park;1;N;N;Y;N;480;Broughton Street;W Hastings Street;Broughton Street;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;0.95;49.289981,-123.125015
+15;Creekside Park;1;N;Y;Y;N;1455;Quebec Street;Terminal Avenue;Quebec Street;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;2.53;49.274415,-123.102924
+16;David Lam Park;1;N;Y;Y;Y;1300;Pacific Boulevard;Drake Street;Pacific Boulevard;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;4.34;49.272569,-123.124145
+20;Emery Barnes Park;1;N;N;Y;N;1170;Richards Street;Davie Street;Richards Street;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;0.85;49.276458,-123.123995
+27;Portal Park;1;N;N;N;N;1099;W Hastings Street;W Hastings Street;Thurlow Street;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;0.1;49.288042,-123.119169
+29;Roundhouse Turntable Plaza;1;N;N;Y;N;181;Roundhouse Mews;Roundhouse Mews;Pacific Boulevard;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;0.91;49.273379,-123.121603
+30;Sun Yat-Sen Gardens;1;N;N;N;N;578;Carrall Street;Keefer Street;Carrall Street;Downtown;https://vancouver.ca/news-calendar/downtown.aspx;0.83;49.279691,-123.104233
+38;Deering Island Park;1;N;N;N;N;3530;Deering Island Pl.;Deering Island Place;Carrington Street;Dunbar-Southlands;https://vancouver.ca/news-calendar/dunbar-southlands.aspx;0.74;49.218288,-123.184356
+40;Musqueam Park;1;N;N;Y;N;4000;SW Marine Drive;SW Marine Drive;Crown Street;Dunbar-Southlands;https://vancouver.ca/news-calendar/dunbar-southlands.aspx;22.05;49.229331,-123.18998
+41;Quadra West Park;1;N;N;N;N;3250;Quadra Street;W 17th Avenue;Quadra Street;Dunbar-Southlands;https://vancouver.ca/news-calendar/dunbar-southlands.aspx;0.17;49.257112,-123.180696
+50;Cambridge Park;1;N;N;N;N;2099;Wall Street;Cambridge Street;Wall Street;Grandview-Woodland;https://vancouver.ca/news-calendar/grandview-woodland.aspx;0.19;49.286753,-123.062784
+52;Grandview Park;1;N;N;Y;Y;1255;Commercial Drive;Charles Street;Commercial Drive;Grandview-Woodland;https://vancouver.ca/news-calendar/grandview-woodland.aspx;0.89;49.273511,-123.070469
+53;McGill Park;1;N;N;N;N;2305;McGill Street;McGill Street;Garden Drive;Grandview-Woodland;https://vancouver.ca/news-calendar/grandview-woodland.aspx;0.19;49.288668,-123.057154
+54;McSpadden Park;1;N;N;Y;N;2125;Victoria Drive;E 5th Avenue;Victoria Drive;Grandview-Woodland;https://vancouver.ca/news-calendar/grandview-woodland.aspx;1.62;49.265936,-123.066601
+56;Oxford Park;1;N;N;Y;N;2050;Wall Street;Oxford Street;Wall Street;Grandview-Woodland;https://vancouver.ca/news-calendar/grandview-woodland.aspx;0.22;49.286172,-123.062223
+64;Woodland Park;1;N;N;Y;Y;705;Woodland Drive;Adanac Street;Woodland Drive;Grandview-Woodland;https://vancouver.ca/news-calendar/grandview-woodland.aspx;1.58;49.278526,-123.073387
+74;Kaslo Park;1;N;N;Y;N;2851;E 7th Avenue;E 7th Avenue;Kaslo Street;Hastings-Sunrise;https://vancouver.ca/news-calendar/hastings-sunrise.aspx;0.45;49.264099,-123.046012
+75;New Brighton Park;1;N;N;Y;Y;3201;New Brighton Road;New Brighton Road;N Windermere Street;Hastings-Sunrise;https://vancouver.ca/news-calendar/hastings-sunrise.aspx;10.0;49.290122,-123.037888
+76;Rupert Park;1;N;N;Y;Y;1600;Rupert Street;E 1st Avenue;Rupert Street;Hastings-Sunrise;https://vancouver.ca/news-calendar/hastings-sunrise.aspx;11.43;49.271629,-123.031384
+77;Sunrise Park;1;N;N;Y;Y;1950;Windermere Street;E 5th Avenue;Windermere Street;Hastings-Sunrise;https://vancouver.ca/news-calendar/hastings-sunrise.aspx;3.18;49.266612,-123.035037
+79;Brewers Park;1;N;N;Y;Y;4175;Victoria Drive;E 26th Avenue;Victoria Drive;Kensington-Cedar Cottage;https://vancouver.ca/news-calendar/kensington-cedar-cottage.aspx;1.38;49.247695,-123.066461
+81;Clark Park;1;N;N;Y;N;1500;E 14th Avenue;E 14th Avenue;Commercial Drive;Kensington-Cedar Cottage;https://vancouver.ca/news-calendar/kensington-cedar-cottage.aspx;4.28;49.257142,-123.072405
+82;General Brock Park;1;N;N;Y;N;2301;Brock Street;Brock Street;Baldwin Street;Kensington-Cedar Cottage;https://vancouver.ca/news-calendar/kensington-cedar-cottage.aspx;2.11;49.244757,-123.058517
+84;Grays Park;1;N;N;Y;Y;4850;St. Catherines Street;E 33rd Avenue;St. Catherines Street;Kensington-Cedar Cottage;https://vancouver.ca/news-calendar/kensington-cedar-cottage.aspx;1.61;49.241136,-123.084974
+88;Kingcrest Park;1;N;N;Y;N;4150;Knight Street;E 26th Avenue;Knight Street;Kensington-Cedar Cottage;https://vancouver.ca/news-calendar/kensington-cedar-cottage.aspx;2.41;49.247499,-123.074674
+92;Fraser River Park;1;N;N;Y;Y;8705;Angus Drive;W 75th Avenue;Angus Drive;Kerrisdale;https://vancouver.ca/news-calendar/kerrisdale.aspx;9.1;49.207915,-123.150862
+100;Champlain Heights Park;1;N;N;Y;N;3351;Maquinna Drive;Maquinna Drive;Champlain Crescent;Killarney;https://vancouver.ca/news-calendar/killarney.aspx;7.84;49.215527,-123.032545
+106;Almond Park;1;N;N;Y;N;3600;W 12th Avenue;W 12th Avenue;Dunbar Street;Kitsilano;https://vancouver.ca/news-calendar/kitsilano.aspx;1.61;49.261014,-123.184543
+108;Connaught Park;1;N;N;Y;N;2390;W 10th Avenue;W 10th Avenue;Vine Street;Kitsilano;https://vancouver.ca/news-calendar/kitsilano.aspx;5.98;49.262026,-123.160025
+114;McBride Park;1;N;N;Y;Y;3350;W 4th Avenue;W 4th Avenue;Waterloo Street;Kitsilano;https://vancouver.ca/news-calendar/kitsilano.aspx;1.71;49.268073,-123.179732
+115;Point Grey Park Site at Trutch Street;1;N;N;N;N;3215;Point Grey Road;Point Grey Road;Trutch Street;Kitsilano;https://vancouver.ca/news-calendar/kitsilano.aspx;0.22;49.271658,-123.17617
+122;Ash Park;1;N;N;Y;N;8288;Ash Street;W 68th Avenue;Ash Street;Marpole;https://vancouver.ca/news-calendar/marpole.aspx;0.51;49.210597,-123.119435
+128;Shannon Park;1;N;N;Y;N;1575;W 62nd Avenue;W 62nd Avenue;Adera Street;Marpole;https://vancouver.ca/news-calendar/marpole.aspx;0.94;49.215457,-123.142529
+131;Winona Park;1;N;N;Y;Y;7575;Columbia Street;W 59th Avenue;Columbia Street;Marpole;https://vancouver.ca/news-calendar/marpole.aspx;5.31;49.215431,-123.114024
+136;Guelph Park;1;N;N;Y;N;2390;Brunswick Street;E 7th Avenue;Brunswick Street;Mount Pleasant;https://vancouver.ca/news-calendar/mount-pleasant.aspx;1.04;49.263965,-123.095837
+146;Montgomery Park;1;N;N;Y;Y;1040;W 43rd Avenue;W 43rd Avenue;Montgomery Street;Oakridge;https://vancouver.ca/news-calendar/oakridge.aspx;4.02;49.231291,-123.130776
+147;Tisdall Park;1;N;Y;Y;N;6210;Tisdall Street;W 49th Avenue;Tisdall Street;Oakridge;https://vancouver.ca/news-calendar/oakridge.aspx;5.02;49.227725,-123.119693
+149;Cariboo Park;1;N;N;Y;N;3450;E 29th Avenue;E 29th Avenue;Cariboo Street;Renfrew-Collingwood;https://vancouver.ca/news-calendar/renfrew.aspx;0.77;49.244232,-123.028792
+151;Collingwood Park;1;N;N;Y;Y;5275;McKinnon Street;Euclid Street;McKinnon Street;Renfrew-Collingwood;https://vancouver.ca/news-calendar/renfrew.aspx;1.27;49.237066,-123.036887
+157;Norquay Park;1;N;N;Y;Y;5050;Wales Street;Kingsway;Wales Street;Renfrew-Collingwood;https://vancouver.ca/news-calendar/renfrew.aspx;2.26;49.237098,-123.051061
+158;Price Park;1;N;N;Y;N;3650;Price Street;Price Street;Boundary Road;Renfrew-Collingwood;https://vancouver.ca/news-calendar/renfrew.aspx;0.35;49.251572,-123.097564
+160;Renfrew Ravine Park;1;N;N;N;N;3900;Renfrew Street;E 24th Avenue;Renfrew Street;Renfrew-Collingwood;https://vancouver.ca/news-calendar/renfrew.aspx;5.89;49.247166,-123.044111
+163;Grimmett Park;1;N;N;N;N;169;E 19th Avenue;E 19th Avenue;Quebec Street;Riley Park;https://vancouver.ca/news-calendar/renfrew.aspx;0.24;49.253954,-123.102003
+171;Kerrisdale Park;1;N;N;Y;N;5670;E Boulevard;W 39th Avenue;East Boulevard;Shaughnessy;https://vancouver.ca/news-calendar/shaughnessy.aspx;2.99;49.235725,-123.152674
+173;VanDusen Botanical Garden;1;N;N;Y;Y;5251;Oak Street;W 37th Avenue;Oak Street;Shaughnessy;https://vancouver.ca/news-calendar/shaughnessy.aspx;22.29;49.239181,-123.131293
+179;MacLean Park;1;N;N;Y;Y;710;Keefer Street;Keefer Street;Heatley Avenue;Strathcona;https://vancouver.ca/news-calendar/strathcona.aspx;1.21;49.278838,-123.088396
+182;Strathcona Linear Park;1;N;N;Y;N;787;Prior Street;Prior Street;Hawks Avenue;Strathcona;https://vancouver.ca/news-calendar/strathcona.aspx;0.3;49.276983,-123.087485
+184;George Park;1;N;N;Y;N;500;E 63rd Avenue;E 63rd Avenue;St. George Street;Sunset;https://vancouver.ca/news-calendar/sunset.aspx;1.43;49.212608,-123.094228
+186;Memorial South Park;1;N;N;Y;Y;5955;Ross Street;E 41st Avenue;Ross Street;Sunset;https://vancouver.ca/news-calendar/sunset.aspx;13.59;49.230901,-123.085138
+188;Ross Park;1;N;N;Y;Y;7402;Ross Street;E 59th Avenue;Ross Street;Sunset;https://vancouver.ca/news-calendar/sunset.aspx;1.51;49.217276,-123.082351
+192;Fraserview Park;1;N;Y;Y;N;7595;Victoria Drive;E 61st Avenue;Victoria Drive;Victoria-Fraserview;https://vancouver.ca/news-calendar/victoria-fraserview.aspx;1.27;49.215398,-123.067572
+194;Gordon Park;1;N;N;Y;Y;6675;Commercial Street;E 49th Avenue;Commercial Street;Victoria-Fraserview;https://vancouver.ca/news-calendar/victoria-fraserview.aspx;6.51;49.22338,-123.070491
+195;Humm Park;1;N;N;Y;N;7250;Humm Street;Upland Drive;Humm Street;Victoria-Fraserview;https://vancouver.ca/news-calendar/victoria-fraserview.aspx;0.47;49.218698,-123.063266
+201;English Bay Beach Park;1;N;Y;Y;Y;1700;Beach Avenue;Beach Avenue;Bidwell Street;West End;https://vancouver.ca/news-calendar/west-end.aspx;9.83;49.287118,-123.143317
+208;Rosemary Brown Park;0;N;N;N;N;2299;Redbud Lane;W 11th Avenue;Vine Street;Kitsilano;https://vancouver.ca/news-calendar/kitsilano.aspx;0.12;49.261821,-123.157388
+209;Langara Park;0;N;N;N;N;200;W 49th Avenue;W 49th Avenue;Columbia Street;Oakridge;https://vancouver.ca/news-calendar/oakridge.aspx;1.21;49.225093,-123.111506
+213;Park Site on Shaughnessy Street;0;N;N;N;N;9250;Shaughnessy Street;Shaughnessy Street;;Marpole;https://vancouver.ca/news-calendar/marpole.aspx;0.56;49.202224,-123.125036
+219;Locarno Park;1;N;N;Y;Y;4445;NW Marine Drive;NW Marine Drive;Trimble Street;West Point Grey;https://vancouver.ca/news-calendar/point-grey.aspx;19.0;49.273015,-123.207284
+235;Granville Island Water Park;0;N;N;Y;N;1348;Cartwright Street;;;Fairview;https://vancouver.ca/news-calendar/fairview.aspx;0.0;49.26955,-123.135064
+240;Hinge Park;0;N;N;Y;N;215;W 1st Avenue;W 1st Avenue;Columbia Street;Mount Pleasant;https://vancouver.ca/news-calendar/mount-pleasant.aspx;0.95;49.270869,-123.110533
+247;McAuley Park;1;N;N;N;N;699;Kingsway;Kingsway;Fraser Street;Mount Pleasant;https://vancouver.ca/news-calendar/mount-pleasant.aspx;0.0;49.256978,-123.09
