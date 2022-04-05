@@ -71,7 +71,7 @@ Now let's try moving our new file into our new directory to organize things a bi
 Input
 {: .label .label-green}
 ~~~
-$ mv myfile myfirstdirectory/myfile.txt
+$ mv myfile.txt myfirstdirectory/myfile.txt
 $ cd myfirstdirectory
 $ ls
 ~~~
@@ -92,7 +92,7 @@ $ ls
 Output
 {: .label .label-yellow}
 ~~~
-mynewfile
+mynewfile.txt
 ~~~
 
 The "cp" command lets you copy files, for example if you want to create a backup.
@@ -200,7 +200,7 @@ Part 5
 Input
 {: .label .label-green}
 ~~~
-$ head
+$ head file1.txt
 ~~~
 
 Output
