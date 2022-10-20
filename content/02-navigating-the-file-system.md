@@ -6,7 +6,7 @@
 ---
 # Navigating the file system
 
-Let's start by opening the unix shell. There are a few things you are likely to see right away. A cursor that is flashing next to a $ indicates where the command line begins. If you see the dollar sign it means that the command line is ready to take commands.
+Let's start by opening the unix shell. There are a few things you are likely to see right away. A cursor that is flashing next to a $, a **prompt**, indicates where the command line begins. If you see the dollar sign it means that the command line is ready to take commands.
 
 ~~~
 $
@@ -15,7 +15,8 @@ $
 You are communicating with your computer by giving it commands and having it react to those commands.
 
 ## Orienting yourself
-Let's enter our first command "pwd" which stands for "print working directory" and will tell us where we are in the system. The term "directory" refers to what you might visually think of as a "folder" when browsing your file system.
+
+Let's enter our first command `pwd` which stands for **print working directory** and will tell us where we are in the system. The term "directory" refers to what you might visually think of as a "folder" when browsing your file system.
 
 Input
 {: .label .label-green}
@@ -28,6 +29,8 @@ Output
 /Users/egrguric
 ~~~
 
+We can use commands to open GUI for applications. For example, `open` opens finders on Mac. A dot, `.`, points to the current working directory. 
+
 Input
 {: .label .label-green}
 ~~~
@@ -35,6 +38,10 @@ $ open .
 ~~~
 
 ![Finder window](finder.png)
+
+In a Unix filesystem, the **root directory** is referred by a single slash character, `/`. Inside this directory, there are several important directories: `bin` contains built-in programs, `data` contains miscellaneous data, `Users` contains user data, and `tmp` contains temporary files that do not need to stored long-term. 
+
+To see the content of the filesystem in the terminal, `ls` is used.
 
 Input
 {: .label .label-green}
@@ -49,6 +56,8 @@ Creative Cloud Files	Library			Public
 Desktop			Movies			Vagrants
 Documents		Music
 ~~~
+
+We can tailor the output of commands by adding options and arguments. For example, `-l` option makes `ls` use a long listing format showing additional information such as the file size and the time of its last modification. 
 
 Input
 {: .label .label-green}
@@ -69,6 +78,8 @@ drwx------+   4 egrguric  staff    128  4 Sep 16:29 Music
 drwx------+   4 egrguric  staff    128 25 Jul 13:56 Pictures
 drwxr-xr-x+   4 egrguric  staff    128 18 Jul  2019 Public
 ~~~
+
+By adding `-h` option, the file size becomes human readable.
 
 Input
 {: .label .label-green}
@@ -91,8 +102,32 @@ drwxr-xr-x+   4 egrguric  staff   128B 18 Jul  2019 Public
 
 ~~~
 
+## Permissions and ownership
+
+The first field of information in the list above is the file type. A file is represented by a hyphen, `-`, and a directory is represented by the letter `d`. The rest of it represent the permission groups: owner, group, and other.
+
+In Unix, there are three permission groups. The first three letters shows the permissions used by the assigned owner of the file or directory. Each permission group has three permissions, called a permission set. A permission set consists of read, write, and execute permissions, represented by `r`, `w`, and `x`, respectively. A dash symbol in place of a character in a permission set indicated that a particular permission is denied. Linux assigns initial permissions automatically when a new file or directory is created. 
+
+Every file is owned by a specific user (or UID) and a specific group (or GID). To change the user or group of a file, we can use `chown` command.
+
+Input
+{: .label .label-green}
+~~~
+$ chown user filename
+$ chown user:group filename
+~~~
+
+The `chmod` command is used to alter the permission of a file. For example, to add execute permission for the owner of a file:
+
+Input
+{: .label .label-green}
+~~~
+$ chmod u+x filename
+~~~
+
 ## Getting help
-Commands come with instructions that you can access from the command line by invoking the "manual". You can also access this manual documentation online.
+
+Every shell command, including `ls`, has lots of other options. There are two common ways to find out how to use a command and the options available for it. We can read the **manual** of a command with `man`
 
 Input
 {: .label .label-green}
@@ -129,11 +164,19 @@ DESCRIPTION
 ~~~
 Notice the colon : which indicates that there is more text and you can keep paging through it by hitting "enter". To quit the manual hit the "q" key which stands for "quit".
 
-You can only go to places that exist.
+We can also pass `--help` optino to the command:
+
+Input
+{: .label .label-green}
+~~~
+$ ls --help
+~~~
+
+You can also find the manual pages on the web. 
 
 ## Moving around
 
-To move between directories we can use the "cd" command which stands for "change directory". This will move you one step forward in the system.
+To move between directories we can use the `cd` command which stands for **change directory**. It should be followed by a directory name to change the working directory. To move to the `Desktop` directory:
 
 Input
 {: .label .label-green}
@@ -149,7 +192,7 @@ Output
 
 When typing a directory name, the case of the directory doesn't matter on Mac or PC but does on Linux.
 
-To move backwards in a directory use "cd .." which takes you back one step or "cd -" which jumps you back to the beginning and prints the directory (in the same way pwd would). 
+To move backwards in a directory use "cd .." which takes you back one step or "cd -" which moves you back to the previous directory and prints the directory (in the same way pwd would). 
 
 Input
 {: .label .label-green}
