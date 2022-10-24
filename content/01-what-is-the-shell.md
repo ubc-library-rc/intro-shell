@@ -25,3 +25,5 @@ It's when we are dealing with a large number of files or folders that are scatte
 For Mac and Linux, which are Unix based systems, you can access the Unix shell through an application called "Terminal". It is findable like any other piece of software installed on your computer.
 
 For Windows 10 users, the Unix shell needs to be turned on but is available as a part of the operating system. You can find more information in per [Simplified Installation](https://docs.microsoft.com/en-us/windows/wsl/install-win10#simplified-installation-for-windows-insiders).Previous versions of Windows required you to install it separately.
+
+[Windows Power Shell](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2) and [Command Prompt](https://en.wikipedia.org/wiki/Cmd.exe) are not user friendly terminals. They are not  multi-tab terminals, do not support UTF-8 characters, and have limited features. We encourage you to install [Windows Terminal](https://apps.microsoft.com/store/detail/9N0DX20HK701?hl=en-ca&gl=CA), which is a powerful and modern terminal application. 

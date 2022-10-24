@@ -39,7 +39,11 @@ $ open .
 
 ![Finder window](finder.png)
 
+The command also works on native Linux systems and opens the default file manager. However, it does not work on WSL, as you do not have access to an extra graphical user interface. 
+
 In a Unix filesystem, the **root directory** is referred by a single slash character, `/`. Inside this directory, there are several important directories: `bin` contains built-in programs, `data` contains miscellaneous data, `Users` contains user data, and `tmp` contains temporary files that do not need to stored long-term. 
+
+You can find the same structure on WSL, however, the default directory structure is different on Windows and the root directory is `drive:\`. 
 
 To see the content of the filesystem in the terminal, `ls` is used.
 
@@ -125,6 +129,8 @@ Input
 $ chmod u+x filename
 ~~~
 
+The command `chmod` does not work on WSL.
+
 ## Getting help
 
 Every shell command, including `ls`, has lots of other options. There are two common ways to find out how to use a command and the options available for it. We can read the **manual** of a command with `man`
@@ -164,7 +170,7 @@ DESCRIPTION
 ~~~
 Notice the colon : which indicates that there is more text and you can keep paging through it by hitting "enter". To quit the manual hit the "q" key which stands for "quit".
 
-We can also pass `--help` optino to the command:
+We can also pass `--help` option to the command:
 
 Input
 {: .label .label-green}
@@ -172,7 +178,9 @@ Input
 $ ls --help
 ~~~
 
-You can also find the manual pages on the web. 
+`man` is a command by itself, which is a pager program that reads manual. `--help` is a built-in option for your command and not all commands implement it. `info` command is another helpful command that is more structured. The commands might show different output depending on the manual and information documents. You can also find the manual pages on the web. 
+
+To clean the terminal for your next command, you should type `clear`.
 
 ## Moving around
 
@@ -204,3 +212,11 @@ Output
 ~~~
 /Users/egrguric
 ~~~
+
+## Superuser
+
+Short for **superuser do**, `sudo` is one of the most popular basic Linux commands that lets you perform tasks that require administrative or root permissions. When using sudo, the system will prompt users to authenticate themselves with a password. You might need to use sudo to install application on the system or access critical files. You should be careful when running commands with superuser access. 
+
+`apt-get` is a command line tool for handling Advanced Package Tool (APT) libraries in Linux. It lets you retrieve information and bundles from authenticated sources to manage, update, remove, and install software and its dependencies. Running the `apt-get` command requires you to use sudo privileges. You can use `sudo apt-get update` and `sudo apt-get upgrade` to synchronize package files from sources and install upgrades.
+
+

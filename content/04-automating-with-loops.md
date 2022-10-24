@@ -37,6 +37,20 @@ Input
 $ history | grep cd
 ~~~
 
+## Variables in Shell
+
+Like scripting languages, you can define variables in shell and store parameters and values in them. The name of a variable can contain only letters, numbers, or the underscore character. By convention, Unix shell variables will have their names in UPPERCASE.
+
+You can assign values to variables using the `=` sign.
+
+Input
+{: .label .label-green}
+~~~
+$ NAME = "shayan"
+~~~
+
+To access the value stored in a variable, prefix its name with the dollar sign (`$`). Sometimes, when connecting to remote machines for running jobs, you might need to store the directory names or file names in variables.
+
 ## Automating with loops
 
 Loops are used to repeat a command or set of commands for each item in a list. Similar to wildcards, using loops can save a lot of time and reduce the amount of typing required. 
@@ -134,4 +148,34 @@ Input
 ~~~
 $ bash script.sh
 ~~~
+
+## Downloading and archiving
+
+The `tar` command archives multiple files into a TAR file – a common Linux format similar to ZIP. The basic syntax looks like this:
+
+Input
+{: .label .label-green}
+~~~
+$ tar [options] [archive_file] [file or directory to be archived]
+~~~
+
+For example, to create a new TAR archive named newarchive.tar in the `/home/user/`Documents directory:
+
+Input
+{: .label .label-green}
+~~~
+$ tar -cvf newarchive.tar /home/user/Documents
+~~~
+
+In the command above, the `c` tells `tar` to create a new archive, `v` sets the screen output to verbose so it will show the result on the screen, and
+`f` points to the filename given to the archive. You can also extract a tar archive by passing `-x` or lists the content of a file by `-t`. 
+
+To download content and files from web servers, you can use `wget`:
+
+Input
+{: .label .label-green}
+~~~
+$ wget [file-address]
+~~~
+
 
