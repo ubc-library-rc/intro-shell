@@ -23,7 +23,7 @@ Output
 /Users/egrguric/desktop
 ~~~
 
-If a directory of filename is too long to type, you can type the first few letters to differentiate the directory and use "tab" to autocomplete directory and file names quickly.
+If the directory name or filename is too long to type, you can type the first few letters to differentiate the address and use "tab" button to autocomplete directory and file names quickly.
 
 ## Creating a directory
 
@@ -50,7 +50,7 @@ Output
 
 ## Creating a file
 
-Now let's create a file. There are built-in text editors accessible through the shell. These editors are handy if you need to make a quick change from the shell or want to avoid having to open another program while you are working in it. Nano is a commonly used text editor.
+Now let's create a file. There are built-in text editors accessible through the shell. These editors are handy if you need to make a quick change from the shell or want to avoid having to open another program while you are working in the terminal. **Nano** is a commonly used text editor.
 
 Input
 {: .label .label-green}
@@ -66,11 +66,11 @@ myfile
 myfirstdirectory
 ~~~
 
-Note: The command line interpreter might confuse the spaces used in the names of files and directories with spaces used to separate arguments. Thus, it is better to avoid them in names of files and directories and use `.`, `-`, or `_` instead. If you need to refer to names of files or directories that have spaces or other special characters, you should surround the name in quotes (`""`).
+Note: The command line interpreter might confuse the spaces used in the names of files and directories with spaces used to separate arguments. Thus, it is better to avoid them in the names of files and directories and use `.`, `-`, or `_` instead. If you need to refer to names of files or directories that have spaces or other special characters, you should surround the name in quotes (`""`).
 
-Note: `nano` is one of the least complex text editors in the Terminal. However, it is not popular among professional developer because it is not powerful and flexible enough. Since `nano` is installed by default on Unix shells, it is also a good choice for editing text files on remote machines. If you would like to know more about text editors, check out the [Introduction to Development Environment](https://ubc-library-rc.github.io/intro-development-environment/content/02.Editors.html) workshop.
+Note: `nano` is one of the least complex text editors in the Terminal. However, it is not popular among professional developers because it is not powerful and flexible enough. Since `nano` is installed by default on Unix shells, it is also a good choice for editing text files on remote machines. If you would like to know more about text editors, check out the [Introduction to Development Environment](https://ubc-library-rc.github.io/intro-development-environment/content/02.Editors.html) workshop.
 
-The convention for naming files is `filename.extension`, where `extension` identifies the type of the file. For example, `.txt` signals a plain text file while `.png` signals a PNG image, and so on. Each filetype has its own encoding and should be openned by an application that decodes the format. Using the correct extension might cause the operating system to try and open it with the appropriate application.
+The convention for naming files is `filename.extension`, where `extension` identifies the type of the file. For example, `.txt` signals a plain text file while `.png` signals a PNG image, and so on. Each filetype has its own encoding and should be opened by an application that decodes the format. Using the correct extension might cause the operating system to try and open it with the appropriate application.
 
 ## Moving, copying, and deleting files and directories
 
@@ -103,9 +103,9 @@ Output
 mynewfile.txt
 ~~~
 
-Note: Be careful when specifying the file name. `mv` silently overwrite any existing files with the same name and could cause data loss. With the option `-i`, you can set `mv` to ask for confirmation before writing. 
+Note: Be careful when specifying the file name. `mv` silently overwrites any existing files with the same name and could cause data loss. With the `-i` option, you can set `mv` to ask for confirmation before writing. 
 
-The "cp" command lets you copy files, for example if you want to create a backup, and it works very much like `mv`. 
+The "cp" command lets you copy files, for example, if you want to create a backup, and it works very much like `mv`. 
 
 Input
 {: .label .label-green}
@@ -129,7 +129,7 @@ Output
 mynewfile.txt
 ~~~
 
-You can also delete directories but that requires an additional (and dangerous) flag. `-r` stands for "recursive" which essentially tells the command "rm" to keep going through all of the files that are inside the directory as well until there's nothing left. Be careful when using this option, as the Unix shell does not have a trash bin and deleted files are unlinked from the file system. Tools for finding and recovering deleted files exists, but there's no guarantee they will work in any particular situation. 
+You can also delete directories but that requires an additional (and dangerous) flag. `-r` stands for "recursive" which essentially tells the command "rm" to keep going through all of the files that are inside the directory as well until there's nothing left. Be careful when using this option, as the Unix shell does not have a trash bin and deleted files are unlinked from the file system. Tools for finding and recovering deleted files exist, but there's no guarantee they will work in any particular situation. 
 
 Note: with `-i` option, the shell prompt before removal and we have a chance to checkl that we are deleting only the files we want to remove.
 
@@ -149,7 +149,7 @@ Output
 
 ### Using wildcards
 
-`*` is a wildcard, which matches zero or more characters. When the shell sees a wildcard, it expands the wildcard and creates a list of matching filesnames before running the command. For example, if you want to copy all the PDF files in a directory, you can run the following command:
+`*` is a wildcard, which matches zero or more characters. When the shell sees a wildcard, it expands the wildcard and creates a list of matching files names before running the command. For example, if you want to copy all the PDF files in a directory, you can run the following command:
 
 Input
 {: .label .label-green}
@@ -221,7 +221,7 @@ Part 4
 Part 5
 ~~~
 
-If the file is large, you might want to get only the first few lines. WE can run another command called `head` for that. Using `-n 5` option with `head` tells it to print only the first 5 lines of the file. The command `head` defaults to showing the first ten lines in a file.
+If the file is large, you might want to get only the first few lines. We can run another command called `head` for that. Using `-n 5` option with `head` tells it to print only the first 5 lines of the file. The command `head` defaults to showing the first ten lines in a file.
 
 Input
 {: .label .label-green}
@@ -244,7 +244,7 @@ Step 4
 
 ~~~
 
-You can use this method to quickly view all of a type of file in a directory.
+You can use this method to quickly view all files of a certain type in a directory.
 
 Input
 {: .label .label-green}
@@ -327,7 +327,7 @@ Step 3
 
 To search for a phrase, we should put the phrase in quotes. 
 
-While `grep` finds lines in files, the `find` command find files within directories. 
+While `grep` finds lines in files, the `find` command finds files within directories. 
 
 Input
 {: .label .label-green}

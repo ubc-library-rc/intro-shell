@@ -8,9 +8,9 @@
 # What is the shell?
 <em><a href="../slides/introduction.html" target="_blank">View slides</a> for this section</em>
 
-The shell (sometimes referred to as the “Unix shell”, for the operating system where it was first developed) is a program that allows you to interact with your computer using typed text commands. It is the primary interface used on Linux and Unix-based systems, such as macOS, and can be optionally installed on other operating systems such as older versions of Windows. As of Windows 10 the Unix shell comes pre-installed but must be turned on.
+The shell (sometimes referred to as the **Unix shell**, for the operating system where it was first developed) is a program that allows you to interact with your computer using typed text commands. It is the primary interface used on Linux and Unix-based systems, such as macOS, and can be optionally installed on other operating systems such as older versions of Windows. As of Windows 10 the Unix shell comes pre-installed but must be turned on.
 
-The most popular Unix shell is Bash (the Bourne Again SHell). Using the shell has a steep learning curve compared with the GUI. While a GUI presents you with choices to select, the command-line interface (CLI) does not present the choices to you. The syntax of the shell allows you to make powerful pipelines by coupling existing commands and handle repetitive tasks. Many shells support scripting as well.
+The most popular Unix shell is Bash (the Bourne Again SHell). Using the shell has a steep learning curve compared with the GUI. While a GUI presents you with choices to select, the command-line interface (CLI) does not present the choices to you. The syntax of the shell allows you to make powerful pipelines by coupling existing commands and handling repetitive tasks. Many shells support scripting as well.
 
 In addition, the command line is often the best option to interact with remote machines and servers. As clusters and cloud computing systems become more common, researchers need to learn the necessary skills to tackle file handling and job submission tasks.
 
@@ -22,8 +22,8 @@ It's when we are dealing with a large number of files or folders that are scatte
 
 ## How do I get to it?
 
-For Mac and Linux, which are Unix based systems, you can access the Unix shell through an application called "Terminal". It is findable like any other piece of software installed on your computer.
+For Mac and Linux, which are Unix-based systems, you can access the Unix shell through an application called "Terminal". It is findable like any other piece of software installed on your computer.
 
-For Windows 10 users, the Unix shell needs to be turned on but is available as a part of the operating system. You can find more information in per [Simplified Installation](https://docs.microsoft.com/en-us/windows/wsl/install-win10#simplified-installation-for-windows-insiders).Previous versions of Windows required you to install it separately.
+For Windows 10 users, the Unix shell needs to be turned on but is available as a part of the operating system. You can find more information in [Simplified Installation](https://docs.microsoft.com/en-us/windows/wsl/install-win10#simplified-installation-for-windows-insiders). Previous versions of Windows required you to install it separately.
 
-[Windows Power Shell](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2) and [Command Prompt](https://en.wikipedia.org/wiki/Cmd.exe) are not user friendly terminals. They are not  multi-tab terminals, do not support UTF-8 characters, and have limited features. We encourage you to install [Windows Terminal](https://apps.microsoft.com/store/detail/9N0DX20HK701?hl=en-ca&gl=CA), which is a powerful and modern terminal application. 
+[Windows Power Shell](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2) and [Command Prompt](https://en.wikipedia.org/wiki/Cmd.exe) are not user-friendly terminals. They are not  multi-tab terminals, do not support UTF-8 characters, and have limited features. We encourage you to install [Windows Terminal](https://apps.microsoft.com/store/detail/9N0DX20HK701?hl=en-ca&gl=CA), which is a powerful and modern terminal application. 

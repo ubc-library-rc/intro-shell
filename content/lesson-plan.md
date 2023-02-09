@@ -6,7 +6,7 @@ has_children: true
 has_toc: false
 ---
 
-## Goal of this workshop
+## Goals of this workshop
 
 This workshop is intended to orient complete beginners to the Unix shell. 
 
@@ -20,7 +20,7 @@ This workshop is intended to orient complete beginners to the Unix shell.
 
 ## Schedule
 
-| 0:00 | [Setup and orientation](../index.md) |
+| 0:00 | [Setup and Orientation](../index.md) |
 | 0:10  | [What is the shell?](./01-what-is-the-shell.md) |     
 | 0:20  | [Navigating files and directories](./02-navigating-the-file-system.md)  |  
 | 0:40 | [Working with files and directories](./03-working-with-files-and-directories.md) |

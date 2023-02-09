@@ -6,7 +6,7 @@
 ---
 # Navigating the file system
 
-Let's start by opening the unix shell. There are a few things you are likely to see right away. A cursor that is flashing next to a $, a **prompt**, indicates where the command line begins. If you see the dollar sign it means that the command line is ready to take commands.
+Let's start by opening the Unix shell. There are a few things you are likely to see right away. A cursor that is flashing next to a $, a **prompt**, indicates where the command line begins. If you see the dollar sign it means that the command line is ready to take commands.
 
 ~~~
 $
@@ -41,7 +41,7 @@ $ open .
 
 The command also works on native Linux systems and opens the default file manager. However, it does not work on WSL, as you do not have access to an extra graphical user interface. 
 
-In a Unix filesystem, the **root directory** is referred by a single slash character, `/`. Inside this directory, there are several important directories: `bin` contains built-in programs, `data` contains miscellaneous data, `Users` contains user data, and `tmp` contains temporary files that do not need to stored long-term. 
+In a Unix filesystem, the **root directory** is referred by a single slash character, `/`. Inside this directory, there are several important directories: `bin` contains built-in programs, `data` contains miscellaneous data, `Users` contains user data, and `tmp` contains temporary files that do not need to be stored long-term. 
 
 You can find the same structure on WSL, however, the default directory structure is different on Windows and the root directory is `drive:\`. 
 
@@ -108,9 +108,9 @@ drwxr-xr-x+   4 egrguric  staff   128B 18 Jul  2019 Public
 
 ## Permissions and ownership
 
-The first field of information in the list above is the file type. A file is represented by a hyphen, `-`, and a directory is represented by the letter `d`. The rest of it represent the permission groups: owner, group, and other.
+The first field of information in the list above is the file type. A file is represented by a hyphen, `-`, and a directory is represented by the letter `d`. The rest of it shows the permission groups: owner, group, and others.
 
-In Unix, there are three permission groups. The first three letters shows the permissions used by the assigned owner of the file or directory. Each permission group has three permissions, called a permission set. A permission set consists of read, write, and execute permissions, represented by `r`, `w`, and `x`, respectively. A dash symbol in place of a character in a permission set indicated that a particular permission is denied. Linux assigns initial permissions automatically when a new file or directory is created. 
+Unix offers three permission groups. The first three letters shows the permissions used by the assigned owner of the file or directory. Each group is called a permission set, and consists of read, write, and execute permissions, represented by `r`, `w`, and `x`, respectively. A dash symbol in place of a character in a permission set indicated that particular permission is denied. Linux assigns initial permissions automatically when a new file or directory is created. 
 
 Every file is owned by a specific user (or UID) and a specific group (or GID). To change the user or group of a file, we can use `chown` command.
 
@@ -133,7 +133,7 @@ The command `chmod` does not work on WSL.
 
 ## Getting help
 
-Every shell command, including `ls`, has lots of other options. There are two common ways to find out how to use a command and the options available for it. We can read the **manual** of a command with `man`
+Every shell command, including `ls`, has lots of other options. There are two common ways to find out how to use a command and the options available for it. We can read the **manual** of a command with `man`:
 
 Input
 {: .label .label-green}
@@ -168,7 +168,7 @@ DESCRIPTION
 
 :
 ~~~
-Notice the colon : which indicates that there is more text and you can keep paging through it by hitting "enter". To quit the manual hit the "q" key which stands for "quit".
+Notice the colon `:` which indicates that there is more text and you can keep paging through it by hitting "enter". To quit the manual hit the `q` key which stands for **quit**.
 
 We can also pass `--help` option to the command:
 
@@ -178,7 +178,7 @@ Input
 $ ls --help
 ~~~
 
-`man` is a command by itself, which is a pager program that reads manual. `--help` is a built-in option for your command and not all commands implement it. `info` command is another helpful command that is more structured. The commands might show different output depending on the manual and information documents. You can also find the manual pages on the web. 
+`man` is a command by itself, which is a pager program that reads manuals of commands. `--help` is a built-in option for your command and not all commands implement it. `info` command is another helpful command that is more structured. The commands might show different output depending on the manual and information documents. You can also find the manual pages on the web. 
 
 To clean the terminal for your next command, you should type `clear`.
 
@@ -200,7 +200,7 @@ Output
 
 When typing a directory name, the case of the directory doesn't matter on Mac or PC but does on Linux.
 
-To move backwards in a directory use "cd .." which takes you back one step or "cd -" which moves you back to the previous directory and prints the directory (in the same way pwd would). 
+To move backwards in a directory, use `cd ..` which takes you back one step or `cd -` which moves you back to the previous directory and prints the directory (in the same way pwd would). 
 
 Input
 {: .label .label-green}

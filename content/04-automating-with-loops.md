@@ -14,7 +14,7 @@ Arguably, the shell's most powerful feature is pipelines, which lets us combine 
 Input
 {: .label .label-green}
 ~~~
-$ ls -l -> list.txt
+$ ls -l > list.txt
 ~~~
 
 The greater than symbol, `>`, tells the shell to redirect the command's output to a file instead of printing it to the screen (the default output). The shell will create the file if it does not exist or will silently overwrite the file. 
@@ -46,7 +46,7 @@ You can assign values to variables using the `=` sign.
 Input
 {: .label .label-green}
 ~~~
-$ NAME = "shayan"
+$ NAME="shayan"
 ~~~
 
 To access the value stored in a variable, prefix its name with the dollar sign (`$`). Sometimes, when connecting to remote machines for running jobs, you might need to store the directory names or file names in variables.
