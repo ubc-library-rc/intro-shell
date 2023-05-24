@@ -49,7 +49,13 @@ Input
 $ NAME="shayan"
 ~~~
 
-To access the value stored in a variable, prefix its name with the dollar sign (`$`). Sometimes, when connecting to remote machines for running jobs, you might need to store the directory names or file names in variables.
+To retrieve the value stored in a variable, simply precede the variable name with the dollar sign (`$`). In certain cases, when establishing connections to remote machines to execute tasks or processes, you may find it necessary to store directory names or file names in variables. This enables easier referencing and manipulation of these values within your scripts or commands. To print the value of a variable in a shell script, you can use the `echo` command followed by the variable name preceded by a dollar sign (`$`).
+
+Input
+{: .label .label-green}
+~~~
+$ echo $name
+~~~
 
 ## Automating with loops
 

@@ -110,7 +110,9 @@ drwxr-xr-x+   4 egrguric  staff   128B 18 Jul  2019 Public
 
 The first field of information in the list above is the file type. A file is represented by a hyphen, `-`, and a directory is represented by the letter `d`. The rest of it shows the permission groups: owner, group, and others.
 
-Unix offers three permission groups. The first three letters shows the permissions used by the assigned owner of the file or directory. Each group is called a permission set, and consists of read, write, and execute permissions, represented by `r`, `w`, and `x`, respectively. A dash symbol in place of a character in a permission set indicated that particular permission is denied. Linux assigns initial permissions automatically when a new file or directory is created. 
+Unix uses three permission groups to manage access rights for files and directories. Each group of three letters represents a permission set comprising read (`r`), write (`w`), and execute (`x`) permissions. The initial three letters in the permission set indicate the permissions granted to the file or directory owner. The second set determine the access rights granted to users who belong to the group associated with the file or directory. The last set represents the permissions for others or everyone else.
+
+If a dash symbol appears in place of a character within a permission set, it signifies that the specific permission is denied. When creating a new file or directory, Linux automatically assigns initial permissions based on predefined rules.
 
 Every file is owned by a specific user (or UID) and a specific group (or GID). To change the user or group of a file, we can use `chown` command.
 
@@ -178,7 +180,7 @@ Input
 $ ls --help
 ~~~
 
-`man` is a command by itself, which is a pager program that reads manuals of commands. `--help` is a built-in option for your command and not all commands implement it. `info` command is another helpful command that is more structured. The commands might show different output depending on the manual and information documents. You can also find the manual pages on the web. 
+`man` is a command by itself, which is a pager program that reads manuals of commands. `--help` is a built-in option for your command and not all commands implement it. `info` command is for of documentation, often found in GNU software. It provides more extensive and structured documentation compared to the `man` pages. When you run a command followed by `--help`, it typically displays a concise help message that describes the command's basic usage and provides information on available command-line options. You can also find the manual pages on the web. 
 
 To clean the terminal for your next command, you should type `clear`.
 
@@ -215,8 +217,8 @@ Output
 
 ## Superuser
 
-Short for **superuser do**, `sudo` is one of the most popular basic Linux commands that lets you perform tasks that require administrative or root permissions. When using sudo, the system will prompt users to authenticate themselves with a password. You might need to use sudo to install application on the system or access critical files. You should be careful when running commands with superuser access. 
+`sudo` is a widely used command in Linux, short for **superuser do**. It allows users to execute tasks that require administrative or root permissions. When you use `sudo`, the system prompts you to authenticate yourself with a password. This command is typically used to perform actions like installing applications or accessing critical files that necessitate elevated privileges.  You should be careful when running commands with superuser access to avoid unintended consequences. 
 
-`apt-get` is a command line tool for handling Advanced Package Tool (APT) libraries in Linux. It lets you retrieve information and bundles from authenticated sources to manage, update, remove, and install software and its dependencies. Running the `apt-get` command requires you to use sudo privileges. You can use `sudo apt-get update` and `sudo apt-get upgrade` to synchronize package files from sources and install upgrades.
+`apt-get` is a command line tool for handling Advanced Package Tool (APT) libraries in Linux. It enables you to manage software packages, including retrieving information, updating, installing, and removing software and its dependencies. Running `apt-get` commands necessitates the use of `sudo` privileges.  You can use `sudo apt-get update` and `sudo apt-get upgrade` to synchronize package files from sources and install upgrades.
 
 
