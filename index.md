@@ -18,3 +18,27 @@ This workshop is adapted from [The Carpentries](https://swcarpentry.github.io/sh
 ## Setup
 
 Please bring a laptop to this workshop. We will be using the Unix shell for most of the workshop. If you have a Mac or a Linux laptop you don't need to install or enable anything. If you are using a Windows 10 PC you will need to turn on the “Windows Subsystem for Linux” setting as per [Simplified Installation](https://docs.microsoft.com/en-us/windows/wsl/install-win10#simplified-installation-for-windows-insiders). If you need help or are using an older version of Windows please get in touch at [jess.yao@ubc.ca](mailto:jess.yao@ubc.ca).
+
+## Slides
+
+Find the workshops slide below or <a href="slides/introduction.html" target="_blank">open it in a new tab</a>:
+
+<div style="overflow: hidden;
+  padding-top: 56.25%;
+  position: relative">
+  <iframe src="slides/introduction.html" title="demo embedded slide deck" scrolling="no" frameborder="0"
+    style="border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;">
+   <p>Your browser does not support iframes.</p>
+ </iframe>
+</div>
+
+## More resources
+
+* [Library Carpentry's UNIX shell reference.](https://librarycarpentry.org/lc-shell/reference.html)
+* [Software Carpentry's more detailed shell reference.](https://swcarpentry.github.io/shell-novice/reference/)
+* [Command line cheat sheet from Tower](https://www.git-tower.com/blog/command-line-cheat-sheet/)
