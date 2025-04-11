@@ -2,7 +2,7 @@
  layout: default
  title: Pipelines and automating
  parent: Outline
- nav_order: 3
+ nav_order: 3.5
 ---
 
 # Pipelines and automating workflows
