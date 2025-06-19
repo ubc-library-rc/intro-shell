@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Resources
-nav_order: 49
+title: Cheatsheets
+nav_order: 19
 ---
 
 # Cheatsheets
