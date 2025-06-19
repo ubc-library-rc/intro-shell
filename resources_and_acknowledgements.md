@@ -14,6 +14,6 @@ nav_order: 20
 
 ## Acknowledgements
 
-Site template adapted from the [just-the-docs](https://github.com/pmarsceill/just-the-docs) Jekyll template created by [Patrick Marsceil](https://github.com/pmarsceill) and available under the [MIT License](http://opensource.org/licenses/MIT).
+The workshop content was adapted from [Library Carpentry: The Unix Shell](https://librarycarpentry.org/lc-shell/). Both the source material and this revised version are available under a [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0) license.
 
-Copyright: UBC Library Research Commons, [Creative Commons Attribution 4.0 license](https://creativecommons.org/licenses/by/4.0/)
+Site template adapted from the [just-the-docs](https://github.com/pmarsceill/just-the-docs) Jekyll template created by [Patrick Marsceil](https://github.com/pmarsceill) and available under the [MIT License](http://opensource.org/licenses/MIT).
