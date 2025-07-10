@@ -26,12 +26,12 @@ It's when we are dealing with a large number of files or folders that are scatte
 For Mac and Linux, which are Unix-based systems, you can access the Unix shell through an application called "Terminal". It is findable like any other piece of software installed on your computer.
 
 ### Windows
-#### Windows 10 and up
+#### **Windows 10 and up**
 Windows 10+ users have the option to enable the Unix shell, which is already integrated into the operating system. You do this via installing Windows Subsystem for Linux (WSL) following the instructions [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10#simplified-installation-for-windows-insiders). 
 
 For a better terminal experience on Windows, we recommend also installing [Windows Terminal](https://apps.microsoft.com/store/detail/9N0DX20HK701?hl=en-ca&gl=CA) in addition to WSL. Windows Terminal is a robust and contemporary terminal application that offers a more intuitive and feature-rich environment. Windows Terminal is not a shell itself but is instead a tool that lets you access and manage multiple command-line shells and tools in one window with tab support. It also provides extensive customization options, enabling you to personalize the appearance and behavior of your terminal. Additionally, Windows Terminal supports UTF-8 characters, ensuring compatibility with a range of languages and character sets.
 
-#### Windows 7, 8, older versions
+#### **Windows 7, 8, older versions**
 For older versions of Windows, such as Windows 7 or Windows 8, the Unix shell is not natively available as part of the operating system. However, you can use the bash emulation layer in the command line that comes installed with [Git Bash](https://git-scm.com/download/win).
 
 ## Other shells
