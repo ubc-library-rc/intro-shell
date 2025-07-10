@@ -16,7 +16,7 @@ In addition, the command line is often the best option to interact with remote m
 
 ## Why should I use it?
 
-Most of the time when we work with files on a computerm the graphical user interface (GUI) that we're familiar with does the job. This is how we visually navigate, scroll, and click through information on our computers.
+Most of the time when we work with files on a computer, the graphical user interface (GUI) that we're familiar with does the job. This is how we visually navigate, scroll, and click through information on our computers.
 
 It's when we are dealing with a large number of files or folders that are scattered across many different locations that the shell is very useful. Any time that you need to do something very repetitive to a large number of files, for example, renaming everything in a folder or separating out all of a certain type of file, there is likely a way to use the shell to speed up your work.
 
