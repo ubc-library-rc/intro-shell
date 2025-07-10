@@ -6,7 +6,9 @@
 ---
 # Navigating the file system
 
-Let's start by opening the Unix shell. There are a few things you are likely to see right away. A cursor that is flashing next to a $, a **prompt**, indicates where the command line begins. If you see the dollar sign it means that the command line is ready to take commands.
+Let's start by opening the Unix shell. Mac and Linux users will open the "Terminal" program on their computers and, for Windows users, depending what you chose to install according to our instructions, you will either open "WSL" or "Windows Terminal".
+
+There are a few things you are likely to see right away. A cursor that is flashing next to a $ indicates where the command line begins. This is called a **prompt**. If you see the dollar sign it means that the command line is ready to take commands.
 
 ~~~
 $
@@ -29,7 +31,7 @@ Output
 /Users/egrguric
 ~~~
 
-We can use commands to open GUI for applications. For example, `open` opens finders on Mac. A dot, `.`, points to the current working directory. 
+We can use commands to open GUI for applications. For example, `open` opens the Finder on Mac. A dot, `.`, points to the current working directory. 
 
 Input
 {: .label .label-green}
@@ -61,7 +63,7 @@ Desktop			Movies			Vagrants
 Documents		Music
 ~~~
 
-We can tailor the output of commands by adding options and arguments. For example, `-l` option makes `ls` use a long listing format showing additional information such as the file size and the time of its last modification. 
+We can tailor the output of commands by adding options and arguments. For example, the `-l` option makes `ls` use a long listing format showing additional information such as the file size and the time of its last modification. 
 
 Input
 {: .label .label-green}
@@ -83,7 +85,7 @@ drwx------+   4 egrguric  staff    128 25 Jul 13:56 Pictures
 drwxr-xr-x+   4 egrguric  staff    128 18 Jul  2019 Public
 ~~~
 
-By adding `-h` option, the file size becomes human readable.
+By adding the `-lh` option, the file size becomes human readable.
 
 Input
 {: .label .label-green}
@@ -108,7 +110,7 @@ drwxr-xr-x+   4 egrguric  staff   128B 18 Jul  2019 Public
 
 ## Permissions and ownership
 
-The first field of information in the list above is the file type. A file is represented by a hyphen, `-`, and a directory is represented by the letter `d`. The rest of it shows the permission groups: owner, group, and others.
+The first field of information in the list above is the file type. A file is represented by a hyphen, `-`, and a directory is represented by the letter `d`. In the examples above, we have only directories and no files. The rest of it shows the permission groups: owner, group, and others.
 
 Unix uses three permission groups to manage access rights for files and directories. Each group of three letters represents a permission set comprising read (`r`), write (`w`), and execute (`x`) permissions. The initial three letters in the permission set indicate the permissions granted to the file or directory owner. The second set determine the access rights granted to users who belong to the group associated with the file or directory. The last set represents the permissions for others or everyone else.
 
@@ -200,7 +202,7 @@ Output
 /Users/egrguric/Desktop
 ~~~
 
-When typing a directory name, the case of the directory doesn't matter on Mac or PC but does on Linux.
+When typing a directory name, the case of the directory doesn't matter on Mac or Windows, but it does on Linux.
 
 To move backwards in a directory, use `cd ..` which takes you back one step or `cd -` which moves you back to the previous directory and prints the directory (in the same way pwd would). 
 
@@ -217,7 +219,7 @@ Output
 
 ## Superuser
 
-`sudo` is a widely used command in Linux, short for **superuser do**. It allows users to execute tasks that require administrative or root permissions. When you use `sudo`, the system prompts you to authenticate yourself with a password. This command is typically used to perform actions like installing applications or accessing critical files that necessitate elevated privileges.  You should be careful when running commands with superuser access to avoid unintended consequences. 
+`sudo` is a widely used command in Linux, short for **superuser do**. It allows users to execute tasks that require administrative or root permissions. When you use `sudo`, the system prompts you to authenticate yourself with a password. This command is typically used to perform actions like installing applications or accessing critical files that necessitate elevated privileges. You should be careful when running commands with superuser access to avoid unintended consequences. 
 
 `apt-get` is a command line tool for handling Advanced Package Tool (APT) libraries in Linux. It enables you to manage software packages, including retrieving information, updating, installing, and removing software and its dependencies. Running `apt-get` commands necessitates the use of `sudo` privileges.  You can use `sudo apt-get update` and `sudo apt-get upgrade` to synchronize package files from sources and install upgrades.
 
