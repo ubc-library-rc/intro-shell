@@ -36,9 +36,21 @@ $ mkdir myfirstdirectory
 $ ls
 ~~~
 
+Output
+{: .label .label-yellow}
+~~~
+829-0.txt                   2014-01_JA.tsv               2014-01-31_JA-africa.tsv
+2014-01-31_JA-america.tsv   2014-02-02_JA-britain.tsv    000003160_01_text.json
+33504-0.txt                 diary.html                   myfirstdirectory
+pg514.txt
+~~~
+
 You can see there is now a new directory in the same location. If we try going into it we will see that it's empty.
 
 There is also a handy way to see this change visually.
+
+Input
+{: .label .label-green}
 ~~~
 $ open .
 ~~~
@@ -50,27 +62,38 @@ Output
 
 ## Creating a file
 
-Now let's create a file. There are built-in text editors accessible through the shell. These editors are handy if you need to make a quick change from the shell or want to avoid having to open another program while you are working in the terminal. **Nano** is a commonly used text editor.
+Now let's create a file using the `touch` command.
+
+When naming files, it is customary to follow the convention of `filename.extension`, where the `extension` denotes the file type. For instance, a `.txt` extension indicates a plain text file, while a `.png` extension signifies a PNG image file, and so on. Each file type has its own specific encoding, and it should be opened using an application capable of decoding that particular format. By using the correct file extension, the operating system recognizes the file type and attempts to open it with the appropriate application. This ensures that the file is processed correctly, utilizing the intended software for viewing, editing, or executing its contents.
 
 Input
 {: .label .label-green}
 ~~~
 $ touch myfile.txt
-$ nano myfile.txt
 $ ls
 ~~~
 Output
 {: .label .label-yellow}
 ~~~
-myfile
-myfirstdirectory
+829-0.txt                   2014-01_JA.tsv               2014-01-31_JA-africa.tsv
+2014-01-31_JA-america.tsv   2014-02-02_JA-britain.tsv    000003160_01_text.json
+33504-0.txt                 diary.html                   myfirstdirectory
+pg514.txt                   myfile.txt
 ~~~
 
-Please note that when working with the command line interpreter, spaces in file and directory names can be misinterpreted as separators between arguments. To avoid any confusion or errors, it is recommended to refrain from using spaces in file and directory names. Instead, consider using periods (`.`), dashes (`-`), or underscores (`_`) as alternatives. If you come across situations where you need to reference file or directory names that contain spaces or special characters, it is advisable to enclose the name within quotation marks (`""`). This ensures that the interpreter correctly recognizes the entire name as a single entity. Following these practices will help prevent any unexpected behavior or issues when working with files and directories through the command line.
+Please note that when working with the command line interpreter, spaces in file and directory names can be misinterpreted as separators between arguments. To avoid any confusion or errors, it is recommended to refrain from using spaces in file and directory names. Instead, consider using dashes (`-`), or underscores (`_`) as alternatives. If you come across situations where you need to reference file or directory names that contain spaces or special characters, it is advisable to enclose the name within quotation marks (`""`). This ensures that the interpreter correctly recognizes the entire name as a single entity. Following these practices will help prevent any unexpected behavior or issues when working with files and directories through the command line.
 
-Note: `nano` is a simple text editor commonly found in the Terminal. While it may not be as powerful and flexible as other text editors, it serves as a convenient option for basic editing tasks. `nano` is pre-installed on Unix shells, and this makes it particularly useful for editing text files on remote machines. If you're interested in exploring different text editors and expanding your knowledge, check out the [Introduction to Development Environment](https://ubc-library-rc.github.io/intro-development-environment/content/02.Editors.html) workshop.
+## Editing a file
 
-When naming files, it is customary to follow the convention of `filename.extension`, where the `extension` denotes the file type. For instance, a `.txt` extension indicates a plain text file, while a `.png` extension signifies a PNG image file, and so on. Each file type has its own specific encoding, and it should be opened using an application capable of decoding that particular format. By using the correct file extension, the operating system recognizes the file type and attempts to open it with the appropriate application. This ensures that the file is processed correctly, utilizing the intended software for viewing, editing, or executing its contents.
+There are built-in text editors accessible through the shell. These editors are handy if you need to make a quick change from the shell or want to avoid having to open another program while you are working in the terminal. **Nano** is a commonly used text editor.
+
+Input
+{: .label .label-green}
+~~~
+$ nano myfile.txt
+~~~
+
+You'll see that this brings up the `nano` text editor in the command-line interface so you can modify the file. While `nano` may not be as powerful and flexible as other text editors, it serves as a convenient option for basic editing tasks. It's pre-installed on Unix shells, and this makes it particularly useful for editing text files on remote machines. If you're interested in exploring different text editors and expanding your knowledge, check out the [Introduction to Development Environment](https://ubc-library-rc.github.io/intro-development-environment/content/02.Editors.html) workshop.
 
 ## Moving, copying, and deleting files and directories
 
@@ -79,7 +102,7 @@ Now let's try moving our new file into our new directory to organize things a bi
 Input
 {: .label .label-green}
 ~~~
-$ mv myfile.txt myfirstdirectory/myfile.txt
+$ mv myfile.txt myfirstdirectory
 $ cd myfirstdirectory
 $ ls
 ~~~
