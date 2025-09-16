@@ -2,6 +2,8 @@
 
 Part of the Core skills in Digital Scholarship workshop series from the [UBC Library Research Commons](https://ubc-library-rc.github.io/).
 
+Description: Adapted from the Carpentries, this workshop is intended to orient complete beginners to the Unix shell.
+
 Link to workshop: https://ubc-library-rc.github.io/intro-shell
 
 ## Acknowledgements
