@@ -36,3 +36,9 @@ For older versions of Windows, such as Windows 7 or Windows 8, the Unix shell is
 
 ## Other shells
 [Windows Power Shell](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2) and [Command Prompt](https://en.wikipedia.org/wiki/Cmd.exe) are traditional terminal applications that have limitations when it comes to user-friendliness and features. They lack multi-tab functionality, may not fully support UTF-8 characters, and have a limited set of features compared to modern terminal applications. There are also often different commands for these shells compared to Unix, so although they work similarly, we will not be supporting them in this workshop.
+
+## bash vs zsh
+- Depending on your operating system, your specific unix shell may be called "bash" or "zsh".
+- To find out which you're using, type `echo $SHELL` in your shell.
+- One difference that may be confusing is zsh indexes starting at 1, and bash at 0.
+- Otherwise, they are similar; we'll deal with differences as they arise.
