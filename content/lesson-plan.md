@@ -8,21 +8,22 @@ has_toc: false
 
 ## Goals of this workshop
 
-This workshop is intended to orient complete beginners to the Unix shell. 
+This workshop is intended to orient complete beginners to the Unix shell.
 
 ## Learning Objectives
 
-* Explain the role of the shell in the operating system and users' programs and compare it with the graphical user interface
-*  Construct absolute and relative paths to access specific files and folders
+* Explain the role of the shell in the operating system and users' programs, and compare it with the graphical user interface
+* Construct absolute and relative paths to access specific files and folders
 * Use options and arguments to change the behaviour of shell commands
 * Create, copy, edit, and delete files and directories
 * Write to files and construct command pipelines
+* Automate repeated actions with loops and shell scripts
 
 ## Schedule
 
 | 0:00 | [Setup and Orientation](../index.md) |
-| 0:10  | [What is the shell?](./01-what-is-the-shell.md) |     
-| 0:20  | [Navigating files and directories](./02-navigating-the-file-system.md)  |  
+| 0:10 | [What is the shell?](./01-what-is-the-shell.md) |
+| 0:20 | [Navigating the file system](./02-navigating-the-file-system.md) |
 | 0:40 | [Working with files and directories](./03-working-with-files-and-directories.md) |
-| 1:00 | [Automating with loops](./04-automating-with-loops.md) |     
-| 1:20 | [Next steps and discussion](../resources.md) |
+| 1:00 | [Pipelines and automating workflows](./04-automating-with-loops.md) |
+| 1:20 | [Next steps and discussion](../resources_and_acknowledgements.md) |

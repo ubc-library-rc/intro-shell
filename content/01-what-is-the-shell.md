@@ -8,7 +8,7 @@
 # What is the shell?
 <em><a href="../slides/introduction.html" target="_blank">View slides</a> for this section</em>
 
-The shell (sometimes referred to as the **Unix shell**, for the operating system where it was first developed) is a program that allows you to interact with your computer using typed text commands. It is the primary interface used on Linux and Unix-based systems, such as macOS, and can be optionally installed on other operating systems such as older versions of Windows. As of Windows 10, the Unix shell comes pre-installed but must be turned on.
+The shell (sometimes referred to as the **Unix shell**, for the operating system where it was first developed) is a program that allows you to interact with your computer using typed text commands. It is the primary interface used on Linux and Unix-based systems, such as macOS, and can be enabled or installed on other operating systems such as Windows. On Windows 10 version 2004 and higher or Windows 11, you can install Windows Subsystem for Linux (WSL) to run a Linux distribution and Bash command-line tools.
 
 The most popular Unix shell is Bash (the Bourne Again SHell). Using the shell has a steep learning curve compared with the graphical user interface (GUI). A GUI is the visual windows, tabs, clickable items, etc. on your computer screen. While a GUI presents you with choices to select, the command-line interface (CLI) does not present the choices to you. The syntax of the shell allows you to make powerful pipelines by coupling existing commands and handling repetitive tasks. Many shells support scripting as well.
 
@@ -20,25 +20,37 @@ Most of the time when we work with files on a computer, the graphical user inter
 
 It's when we are dealing with a large number of files or folders that are scattered across many different locations that the shell is very useful. Any time that you need to do something very repetitive to a large number of files, for example, renaming everything in a folder or separating out all of a certain type of file, there is likely a way to use the shell to speed up your work.
 
+### What about Windows PowerShell?
+Windows PowerShell is a powerful and well-designed cross-platform shell and scripting language that works with .NET objects and is often used for system administration and automation.
+This workshop focuses on the  Unix shell because it is the standard for scientific computing, high-performance supercomputers, and cloud-native tools like Docker and Kubernetes. 
+Its plain-text orientation offers lightweight portability across Linux, macOS, and container environments. By granting users access to modular, well-defined commands and a vast ecosystem of open-source tools, the shell allows researchers to easily chain tasks into powerful custom pipelines and automated workflows.
+
+### How does it translate to my research?
+The shell can be highly relevant to a researcher in both their individual and collaborative work. 
+For an individual researcher, the Unix shell is an entry point to an efficient, customizable, text-centric workflow for writing and data analysis. The [Core Skills](https://libcal.library.ubc.ca/calendar/vancouver/?t=g&q=Core%20Skills&cid=7544&cal=7544&inc=0) series consists of workshops on the Unix shell, Git & GitHub, Regular Expressions, and Markdown that form a streamlined and robust workflow for managing your research process, results, and writing output.
+
+At the project level, a researcher may join a team that already uses servers, or may be addressing a research problem whose scale has outgrown their desktop or laptop.
+Knowledge of the shell allows researchers to access many high-performance computing (HPC) clusters and remote servers.
+
 ## How do I get to it?
 
 ### Mac and Linux
-For Mac and Linux, which are Unix-based systems, you can access the Unix shell through an application called "Terminal". It is findable like any other piece of software installed on your computer.
+For Mac and Linux, which are Unix-based systems, you can access the Unix shell through an application called "Terminal". It is available like any other piece of software installed on your computer.
 
 ### Windows
 #### **Windows 10 and up**
-Windows 10+ users have the option to enable the Unix shell, which is already integrated into the operating system. You do this via installing Windows Subsystem for Linux (WSL) following the instructions [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10#simplified-installation-for-windows-insiders). 
+Windows 10+ users have the option to enable the Unix shell through Windows Subsystem for Linux (WSL). You can install WSL by following the instructions [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10#simplified-installation-for-windows-insiders).
 
 For a better terminal experience on Windows, we recommend also installing [Windows Terminal](https://apps.microsoft.com/store/detail/9N0DX20HK701?hl=en-ca&gl=CA) in addition to WSL. Windows Terminal is a robust and contemporary terminal application that offers a more intuitive and feature-rich environment. Windows Terminal is not a shell itself but is instead a tool that lets you access and manage multiple command-line shells and tools in one window with tab support. It also provides extensive customization options, enabling you to personalize the appearance and behavior of your terminal. Additionally, Windows Terminal supports UTF-8 characters, ensuring compatibility with a range of languages and character sets.
 
 #### **Windows 7, 8, older versions**
-For older versions of Windows, such as Windows 7 or Windows 8, the Unix shell is not natively available as part of the operating system. However, you can use the bash emulation layer in the command line that comes installed with [Git Bash](https://git-scm.com/download/win).
+For older versions of Windows, such as Windows 7 or Windows 8, the Unix shell is not natively available as part of the operating system. However, you can use the Bash emulation layer in the command line that comes installed with [Git Bash](https://git-scm.com/download/win).
 
 ## Other shells
 [Windows Power Shell](https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.2) and [Command Prompt](https://en.wikipedia.org/wiki/Cmd.exe) are traditional terminal applications that have limitations when it comes to user-friendliness and features. They lack multi-tab functionality, may not fully support UTF-8 characters, and have a limited set of features compared to modern terminal applications. There are also often different commands for these shells compared to Unix, so although they work similarly, we will not be supporting them in this workshop.
 
-## bash vs zsh
-- Depending on your operating system, your specific unix shell may be called "bash" or "zsh".
+## Bash vs. zsh
+- Depending on your operating system, your specific Unix shell may be called "Bash" or "zsh".
 - To find out which you're using, type `echo $SHELL` in your shell.
-- One difference that may be confusing is zsh indexes starting at 1, and bash at 0.
+- One difference that may be confusing is that zsh indexes arrays starting at 1, while Bash starts at 0.
 - Otherwise, they are similar; we'll deal with differences as they arise.
