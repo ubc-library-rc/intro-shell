@@ -76,7 +76,7 @@ For example, if you want to copy all of the files with the `.doc` extension and 
 for filename in *.doc
 do
   echo "$filename"
-  cp "$filename" backup_"$filename"
+  cp "$filename" "backup_$filename"
 done
 ~~~
 

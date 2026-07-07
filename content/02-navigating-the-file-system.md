@@ -63,7 +63,11 @@ Desktop			Movies			Vagrants
 Documents		Music
 ~~~
 
-- To clean the terminal for your next command, you should type `clear`.
+- To clean the terminal for your next command, type `clear`.
+
+- To go back to where you were when you first logged in (your home directory), type `cd`.
+
+- To repeat a previously typed command, you can type the Up arrow until you find it then press Enter to run the command again.
 
 - If the directory name or filename is too long to type, you can type the first few letters to distinguish the path and use the Tab key to autocomplete directory and file names quickly.
 
@@ -121,6 +125,12 @@ Unix uses three permission groups to manage access rights for files and director
 If a dash symbol appears in place of a character within a permission set, it signifies that the specific permission is denied. When creating a new file or directory, Linux automatically assigns initial permissions based on predefined rules.
 
 Every file is owned by a specific user (or UID) and a specific group (or GID).
+
+At the end of the first columsn you may see a `@`, `+`, or both.
+The `@` means that Extended Attributes are present (common on macOS).
+The `+` indicates that an Access Control List (ACL) is active.
+
+The `+` at the end of the first column means that Extended Attributes are present (common on macOS).
  
 ## Getting help
 
