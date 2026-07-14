@@ -13,9 +13,10 @@ Arguably, the shell's most powerful feature is pipelines, which let us combine e
 
 Input
 {: .label .label-green}
+~~~bash
+$ ls -l > list.txt
 ~~~
-ls -l > list.txt
-~~~
+{: .shell-input}
 
 The greater than symbol, `>`, tells the shell to redirect the command's output to a file instead of printing it to the screen (the default output). The shell will create the file if it does not exist or will silently overwrite the file.
 
@@ -25,17 +26,19 @@ You can also use `grep` to search the history of commands that were run in the s
 
 Input
 {: .label .label-green}
+~~~bash
+$ history
 ~~~
-history
-~~~
+{: .shell-input}
 
 Now, we use pipelines to send the output of `history` to a `grep` command:
 
 Input
 {: .label .label-green}
+~~~bash
+$ history | grep cd
 ~~~
-history | grep cd
-~~~
+{: .shell-input}
 
 ## Variables in the shell
 
@@ -45,17 +48,19 @@ You can assign values to variables using the `=` sign.
 
 Input
 {: .label .label-green}
+~~~bash
+$ NAME="shayan"
 ~~~
-NAME="shayan"
-~~~
+{: .shell-input}
 
 To retrieve the value stored in a variable, simply precede the variable name with the dollar sign (`$`). In certain cases, when establishing connections to remote machines to execute tasks or processes, you may find it necessary to store directory names or file names in variables. This enables easier reference and manipulation of these values within your scripts or commands. To print the value of a variable in a shell script, you can use the `echo` command followed by the variable name preceded by a dollar sign (`$`).
 
 Input
 {: .label .label-green}
+~~~bash
+$ echo $name
 ~~~
-echo $name
-~~~
+{: .shell-input}
 
 ## Automating with loops
 
@@ -88,9 +93,11 @@ Let's say we make four files called `one.doc`, `two.doc`, `three.doc`, and `four
 
 Input
 {: .label .label-green}
+~~~bash
+$ touch one.doc two.doc three.doc four.doc
 ~~~
-touch one.doc two.doc three.doc four.doc
-~~~
+{: .shell-input}
+
 Output
 {: .label .label-yellow}
 ~~~
@@ -104,13 +111,15 @@ Let's run our loop and see what happens. Note that we are telling the script to 
 
 Input
 {: .label .label-green}
-~~~
-for filename in *.doc
+~~~bash
+$ for filename in *.doc
 > do
 >   echo "$filename"
 >   cp "$filename" backup_"$filename"
 > done
 ~~~
+{: .shell-input}
+
 Output
 {: .label .label-yellow}
 ~~~
@@ -143,17 +152,19 @@ A shell script should have a `.sh` extension, but it is nothing more than a prog
 
 Input
 {: .label .label-green}
+~~~bash
+$ nano script.sh
 ~~~
-nano script.sh
-~~~
+{: .shell-input}
 
 To execute the commands in a shell script, we ask the shell to read and run the commands:
 
 Input
 {: .label .label-green}
+~~~bash
+$ bash script.sh
 ~~~
-bash script.sh
-~~~
+{: .shell-input}
 
 ## Downloading and archiving
 
@@ -161,17 +172,19 @@ The `tar` command archives multiple files into a TAR file, a common Linux format
 
 Input
 {: .label .label-green}
+~~~bash
+$ tar [options] [archive_file] [file or directory to be archived]
 ~~~
-tar [options] [archive_file] [file or directory to be archived]
-~~~
+{: .shell-input}
 
 For example, to create a new TAR archive named `newarchive.tar` in the `/home/user/Documents` directory:
 
 Input
 {: .label .label-green}
+~~~bash
+$ tar -cvf newarchive.tar /home/user/Documents/myfirstdirectory
 ~~~
-tar -cvf newarchive.tar /home/user/Documents/myfirstdirectory
-~~~
+{: .shell-input}
 
 In the command above, `c` tells `tar` to create a new archive, `v` sets the screen output to verbose so it will show the result on the screen, and
 `f` points to the filename given to the archive. You can also extract a tar archive by passing `-x` or list the contents of an archive by passing `-t`.
@@ -180,6 +193,8 @@ To download content and files from web servers, you can use `wget`:
 
 Input
 {: .label .label-green}
+~~~bash
+$ wget [file-address]
 ~~~
-wget [file-address]
-~~~
+{: .shell-input}
+

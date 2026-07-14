@@ -22,9 +22,11 @@ Let's enter our first command, `pwd`, which stands for **print working directory
 
 Input
 {: .label .label-green}
+~~~bash
+$ pwd
 ~~~
-pwd
-~~~
+{: .shell-input}
+
 Output
 {: .label .label-yellow}
 ~~~
@@ -35,9 +37,10 @@ We can use commands to open graphical applications. For example, `open` opens Fi
 
 Input
 {: .label .label-green}
+~~~bash
+$ open .
 ~~~
-open .
-~~~
+{: .shell-input}
 
 ![Finder window](finder.png)
 
@@ -51,9 +54,11 @@ To see the contents of the filesystem in the terminal, use `ls`.
 
 Input
 {: .label .label-green}
+~~~bash
+$ ls
 ~~~
-ls
-~~~
+{: .shell-input}
+
 Output
 {: .label .label-yellow}
 ~~~
@@ -75,9 +80,11 @@ We can tailor the output of commands by adding options and arguments. For exampl
 
 Input
 {: .label .label-green}
+~~~bash
+$ ls -l
 ~~~
-ls -l
-~~~
+{: .shell-input}
+
 Output
 {: .label .label-yellow}
 ~~~
@@ -97,9 +104,11 @@ By adding the `-lh` option, the file size becomes human-readable.
 
 Input
 {: .label .label-green}
+~~~bash
+$ ls -lh
 ~~~
-ls -lh
-~~~
+{: .shell-input}
+
 Output
 {: .label .label-yellow}
 ~~~
@@ -146,9 +155,11 @@ We can read the **manual** for a command with `man`:
 
 Input
 {: .label .label-green}
+~~~bash
+$ man ls
 ~~~
-man ls
-~~~
+{: .shell-input}
+
 Output
 {: .label .label-yellow}
 ~~~
@@ -183,9 +194,10 @@ We can also pass the `--help` option to the command:
 
 Input
 {: .label .label-green}
+~~~bash
+$ curl --help
 ~~~
-curl --help
-~~~
+{: .shell-input}
 
 ## Moving around
 
@@ -193,10 +205,12 @@ To move between directories, we can use the `cd` command, which stands for **cha
 
 Input
 {: .label .label-green}
+~~~bash
+$ cd Desktop
+$ pwd
 ~~~
-cd Desktop
-pwd
-~~~
+{: .shell-input}
+
 Output
 {: .label .label-yellow}
 ~~~
@@ -209,9 +223,11 @@ To move backwards in a directory, use `cd ..`, which takes you back one step, or
 
 Input
 {: .label .label-green}
+~~~bash
+$ cd -
 ~~~
-cd -
-~~~
+{: .shell-input}
+
 Output
 {: .label .label-yellow}
 ~~~
