@@ -13,7 +13,7 @@ Arguably, the shell's most powerful feature is pipelines, which let us combine e
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ ls -l > list.txt
 ~~~
 {: .shell-input}
@@ -26,7 +26,7 @@ You can also use `grep` to search the history of commands that were run in the s
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ history
 ~~~
 {: .shell-input}
@@ -35,7 +35,7 @@ Now, we use pipelines to send the output of `history` to a `grep` command:
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ history | grep cd
 ~~~
 {: .shell-input}
@@ -48,7 +48,7 @@ You can assign values to variables using the `=` sign.
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ NAME="shayan"
 ~~~
 {: .shell-input}
@@ -57,7 +57,7 @@ To retrieve the value stored in a variable, simply precede the variable name wit
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ echo $name
 ~~~
 {: .shell-input}
@@ -93,7 +93,7 @@ Let's say we make four files called `one.doc`, `two.doc`, `three.doc`, and `four
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ touch one.doc two.doc three.doc four.doc
 ~~~
 {: .shell-input}
@@ -111,7 +111,7 @@ Let's run our loop and see what happens. Note that we are telling the script to 
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ for filename in *.doc
 > do
 >   echo "$filename"
@@ -152,7 +152,7 @@ A shell script should have a `.sh` extension, but it is nothing more than a prog
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ nano script.sh
 ~~~
 {: .shell-input}
@@ -161,7 +161,7 @@ To execute the commands in a shell script, we ask the shell to read and run the 
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ bash script.sh
 ~~~
 {: .shell-input}
@@ -172,7 +172,7 @@ The `tar` command archives multiple files into a TAR file, a common Linux format
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ tar [options] [archive_file] [file or directory to be archived]
 ~~~
 {: .shell-input}
@@ -181,7 +181,7 @@ For example, to create a new TAR archive named `newarchive.tar` in the `/home/us
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ tar -cvf newarchive.tar /home/user/Documents/myfirstdirectory
 ~~~
 {: .shell-input}
@@ -193,7 +193,7 @@ To download content and files from web servers, you can use `wget`:
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ wget [file-address]
 ~~~
 {: .shell-input}

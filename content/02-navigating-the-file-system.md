@@ -22,7 +22,7 @@ Let's enter our first command, `pwd`, which stands for **print working directory
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ pwd
 ~~~
 {: .shell-input}
@@ -37,7 +37,7 @@ We can use commands to open graphical applications. For example, `open` opens Fi
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ open .
 ~~~
 {: .shell-input}
@@ -54,7 +54,7 @@ To see the contents of the filesystem in the terminal, use `ls`.
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ ls
 ~~~
 {: .shell-input}
@@ -80,7 +80,7 @@ We can tailor the output of commands by adding options and arguments. For exampl
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ ls -l
 ~~~
 {: .shell-input}
@@ -104,7 +104,7 @@ By adding the `-lh` option, the file size becomes human-readable.
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ ls -lh
 ~~~
 {: .shell-input}
@@ -155,7 +155,7 @@ We can read the **manual** for a command with `man`:
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ man ls
 ~~~
 {: .shell-input}
@@ -194,7 +194,7 @@ We can also pass the `--help` option to the command:
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ curl --help
 ~~~
 {: .shell-input}
@@ -205,7 +205,7 @@ To move between directories, we can use the `cd` command, which stands for **cha
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ cd Desktop
 $ pwd
 ~~~
@@ -223,7 +223,7 @@ To move backwards in a directory, use `cd ..`, which takes you back one step, or
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ cd -
 ~~~
 {: .shell-input}

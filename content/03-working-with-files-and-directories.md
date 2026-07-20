@@ -13,7 +13,7 @@ First, let's navigate to our Desktop.
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ cd Desktop
 $ pwd
 ~~~
@@ -31,7 +31,7 @@ Let's try creating a directory and moving into it.
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ mkdir myfirstdirectory
 $ ls
 ~~~
@@ -52,7 +52,7 @@ There is also a handy way to see this change visually.
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ open .
 ~~~
 {: .shell-input}
@@ -70,7 +70,7 @@ When naming files, it is customary to follow the convention of `filename.extensi
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ touch myfile.txt
 $ ls
 ~~~
@@ -93,7 +93,7 @@ There are built-in text editors accessible through the shell. These editors are 
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ nano myfile.txt
 ~~~
 {: .shell-input}
@@ -106,7 +106,7 @@ Now let's try moving our new file into our new directory to organize things a bi
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ mv myfile.txt myfirstdirectory
 $ cd myfirstdirectory
 $ ls
@@ -123,7 +123,7 @@ The first argument contains the file we are moving, and the second one is where 
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ mv myfile.txt mynewfile.txt
 $ ls
 ~~~
@@ -141,7 +141,7 @@ The `cp` command lets you copy files, for example, if you want to create a backu
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ cp mynewfile.txt backup_mynewfile.txt
 ~~~
 {: .shell-input}
@@ -152,7 +152,7 @@ You can delete files with the `rm` command, which stands for remove.
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ rm backup_mynewfile.txt
 $ ls
 ~~~
@@ -170,7 +170,7 @@ Note: With the `-i` option, the shell prompts before removal, giving us a chance
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ cd ..
 $ ls
 $ rm -r myfirstdirectory
@@ -190,7 +190,7 @@ Output
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ cp firstdirectory/*.pdf seconddirectory/
 ~~~
 {: .shell-input}
@@ -205,7 +205,7 @@ We've already talked a bit about looking at the information about the files.
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ touch file1.txt file2.txt file3.txt file4.txt
 ~~~
 {: .shell-input}
@@ -221,7 +221,7 @@ file4.txt
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ ls -lh
 ~~~
 {: .shell-input}
@@ -230,7 +230,7 @@ But you can also quickly open the entire file from the command line. The `cat` c
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ cat file1.txt
 ~~~
 {: .shell-input}
@@ -243,7 +243,7 @@ Output
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ nano file1.txt
 ~~~
 {: .shell-input}
@@ -268,7 +268,7 @@ If the file is large, you might want to get only the first few lines. We can run
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ head file1.txt
 ~~~
 {: .shell-input}
@@ -292,7 +292,7 @@ You can use this method to quickly view all files of a certain type in a directo
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ head *.txt
 ~~~
 {: .shell-input}
@@ -301,7 +301,7 @@ Or only the first line of all of the files, which might be useful if there are a
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ head -n1 *.txt
 ~~~
 {: .shell-input}
@@ -310,7 +310,7 @@ $ head -n1 *.txt
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ tail file1.txt
 ~~~
 {: .shell-input}
@@ -334,7 +334,7 @@ World domination!
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ less file1.txt
 ~~~
 {: .shell-input}
@@ -364,7 +364,7 @@ Use the Enter key to move through the file and `q` to quit or exit the file.
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ grep 3 file1.txt
 ~~~
 {: .shell-input}
@@ -381,7 +381,7 @@ While `grep` finds lines in files, the `find` command finds files within directo
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ find .
 ~~~
 {: .shell-input}
@@ -390,7 +390,7 @@ Since `.` means the current working directory, `find`'s output is the names of a
 
 Input
 {: .label .label-green}
-~~~bash
+~~~
 $ find . -name '*.txt'
 ~~~
 {: .shell-input}
